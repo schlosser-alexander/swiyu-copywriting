@@ -254,7 +254,7 @@ Federal authorities write in clear, comprehensible language and take account of 
 
 1. **Take the person out of the sentence** – name the action, the function or the organisation. Resolves most labels; always first. ✅ *Ausgestellt von* · 🚫 *Aussteller* · ✅ *Meldung erstellen* · 🚫 *Aussteller melden*
 2. **A term that has one form for everyone** (epicene or collective). `[DE]` *die Person, die Fachperson, das Teammitglied, die Belegschaft, die Bevölkerung*
-3. **`[DE]` Participle used as a noun.** *Ausstellende, Prüfende, Nutzende, Beteiligte, Mitarbeitende.* French and Italian have no equivalent; do not attempt one.
+3. **`[DE]` Participle used as a noun.** *Ausstellende, Prüfende, Nutzende, Beteiligte, Mitarbeitende.* French and Italian have no equivalent; do not attempt one. Prefer the plural: *die Nutzenden*, not *der oder die Nutzende*. Where a singular is required, go back to step 1 or 4: *wer einen Nachweis ausstellt*.
 4. **Describe instead of labelling.** `[DE]` *wer den Antrag einreicht, zuständige Stelle, verantwortliche Person*
 5. **Full paired form, feminine first** – running text only, and only where visibility is the point. `[DE]` *Bürgerinnen und Bürger*
 6. **Language fallback** where steps 1 to 5 fail. A legitimate ending, not a failure. `[DE]` the generic feminine: *Ausstellerin, Prüferin, Inhaberin, Kundinnen*. `[EN]` none needed (GEN-05). `[FR][IT]` → the language file.
@@ -417,7 +417,7 @@ Settled facts that drafts get wrong often enough to fix here instead of re-check
 **WRD-08 Fixed choices,** decided once and never re-derived.
 - `[DE]` *Nachweis*, not *Dokument* · *Vertrauensinfrastruktur*, not *Vertrauensnetzwerk*
 - **AGOV and DVS4U are distinct and never conflated.** AGOV is the authentication service for federal services. DVS4U is a credential management application from Digitale Verwaltung Schweiz. Neither is a synonym for the other or for swiyu.
-- Names of authorities are terms: the full official name, looked up in Termdat, never reconstructed. Capitalisation differs per language → the language files.
+- Names of authorities are terms: the full official name, looked up in Termdat, never reconstructed. Capitalisation differs per language → `references/FR.md`.
 
 **WRD-09 Translating from German.**
 - Translate the argument, not the syntax. German tolerates a long gap between subject and verb; French, Italian and English do not. A literal rendering usually has to be split.
@@ -504,7 +504,7 @@ Paths are relative to the skill root, here and inside the reference files. Decid
 | `references/text-type-*.md` | Writing or restructuring a whole component or page. Not needed to fix a sentence. |
 | `references/glossary.md` | A term needs its approved equivalent in DE, FR or IT, or its grammatical gender |
 | `references/glossary-descriptions.md` | The meaning of a glossary entry is in doubt; never for a plain lookup |
-| `references/DE.md` | A German number, date, currency or capitalisation question, a formal word that needs a plain swap (WRD-01), or the ladder does not resolve a case |
+| `references/DE.md` | A German number, date, currency or capitalisation question, or a formal word that needs a plain swap (WRD-01) |
 | `references/FR.md` | **Always, when writing French** (GEN-07) |
 | `references/IT.md` | **Always, when writing Italian** (GEN-07) |
 | `references/EN.md` | An English spelling, contraction or number question |

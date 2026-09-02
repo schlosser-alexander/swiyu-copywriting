@@ -109,13 +109,3 @@ Open this file when writing or correcting German. It condenses the Federal Chanc
 | Schnittstelle, API `[PRIV]` | Verbindung |
 | Konfiguration | Einstellungen |
 | Funktionalität | das kann das Produkt |
-
----
-
-## 7 Gender
-
-How GEN-01 is realised in German. The participle solution (step 3) carries most of the load. Only what the ladder, GEN-02 and ADR-01 do not already say:
-
-- **Prefer the plural for participles.** *die Nutzenden*, not *der oder die Nutzende*. Where a singular is required, go back to step 1 or 4: *wer einen Nachweis ausstellt*.
-- **A collective or functional term beats a participle where it fits,** because it is shorter: *die Belegschaft*, *die Bevölkerung*, *die zuständige Stelle*, *das Teammitglied*.
-- **The generic feminine reaches short role labels without a participle form.** A relationship label avoids it entirely: *Geprüft durch: Kanton Bern*, not *Prüfer: Kanton Bern*.
