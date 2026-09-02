@@ -76,13 +76,14 @@ Should the text be optimised for a specific text type?
 - **A claim is** any statement about what swiyu does, how it works, who operates what, what the law requires, when something happens, or any figure. Capability statements always count. Benefit framing and reader address do not.
 - **Sources, in order:**
   1. the customer-facing glossary – for what a term means
-  2. eid.admin.ch, fetched live
-  3. the technical documentation at swiyu-admin-ch.github.io/introduction/, fetched live
+  2. eid.admin.ch – found with a site-restricted search (`site:eid.admin.ch <term>`), then opened from the search result
+  3. the technical documentation – found with `site:swiyu-admin-ch.github.io <term>`, then opened from the search result
   4. official federal publications – for what the law requires
   5. for anything not swiyu-specific: the documentation of the body that defines it, never a summary of it
-- **A fact check as a task** uses exactly two sources: eid.admin.ch and the technical documentation. Report, per claim, which one settled it. A claim neither settles is unverified; never resolve it from the wider list or from memory.
+- **Never type a web address yourself.** A page can only be opened from an address that came back from a search or that the user pasted. An address written from memory fails. Search the site for the term, open the result. If no result covers the claim, or the page cannot be opened, the claim is unverified – no second attempt on a guessed address.
+- **A fact check as a task** uses exactly two sources: eid.admin.ch and the technical documentation, each reached by site-restricted search. Report, per claim, which one settled it. A claim neither settles is unverified; never resolve it from the wider list or from memory.
 - **Approved means** live on eid.admin.ch, or explicitly marked final. Drafts, design files and earlier output of this skill do not count. Ask when the status is unclear.
-- **Never enough on its own:** general knowledge, a web search, plausibility. Where sources disagree or are silent, flag the claim as unverified.
+- **Never enough on its own:** general knowledge, a search result, plausibility. A search locates the page; only the opened page settles the claim. Where sources disagree or are silent, flag the claim as unverified.
 - **When the rule runs:** in full for style-and-content reviews and for new text. Not in a style review.
 - **On a rewrite, check by source.** A claim carried unchanged from an approved text has already passed. Anything from an unapproved source gets the full check. Shortening is a new claim: a dropped qualifier turns a narrow true claim into a broad false one.
 - The facts that most often go wrong are fixed in §8.
