@@ -10,7 +10,7 @@ The federal writing rules this skill draws on. Each entry records the edition an
 | Leitfaden zum geschlechtergerechten Formulieren | – | `references/DE.md` `[DE]` | – |
 | Instructions sur la présentation des textes officiels en français | 2016 | `references/FR.md` | – |
 | Pour un usage inclusif du français dans les textes de la Confédération | 2023 | `references/FR.md` `[FR]` | – |
-| Istruzioni per la redazione dei testi ufficiali in italiano | check for the current edition | `references/IT.md` – thin, partly unverified | – |
+| Istruzioni per la redazione dei testi ufficiali in italiano | 15 December 2025 | `references/IT.md` | – |
 | Linguaggio inclusivo di genere | 2nd revised edition 2023 | `references/IT.md` `[IT]` | – |
 | Sprachengesetz SR 441.1, art. 7 | – | `SKILL.md` §6.1, gender | – |
 | eCH-0059 v3.0 (WCAG 2.1 AA), adopted by federal directive P028 | check current status of both | `references/text-type-website.md` §10 | – |

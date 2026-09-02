@@ -1,50 +1,47 @@
 # Italian
 
-Open this file when writing or correcting Italian. The rules follow the *Istruzioni per la redazione dei testi ufficiali in italiano*.
+Open this file when writing or correcting Italian. The rules follow the *Istruzioni per la redazione dei testi ufficiali in italiano* and the guide *Linguaggio inclusivo di genere*.
 - Quotation marks are settled in `SKILL.md` (MEC-05) and not repeated here.
-- This file is thin. Rules marked `[zu prüfen]` need confirmation from the Italian language service before they are relied on in published copy.
+- The deviation from federal guidance on the unmarked masculine is recorded in `SOURCES.md`.
 
 ---
 
-## 1 Typography
+## 1 Numbers and dates
 
 **ITA-01 Non-breaking spaces bind figures to units, symbols and abbreviations:** *10 km*, *50 franchi*, *3 %*, *art. 7*.
 
-**ITA-02 Decimal comma; thousands grouped with a non-breaking space.** `[zu prüfen]`
+**ITA-02 Thousands grouped with a non-breaking space:** *55 000*, *12 300 000*. Never a point or an apostrophe.
+
+**ITA-03 Dates in lists, tables and forms take figures separated by full stops:** *12.05.2026*. Running text writes the month out: *12 maggio 2026*.
 
 ---
 
-## 2 Dates
+## 2 Gender
 
-**ITA-03 Dates.**
-- Running text: day and year in figures, month written out: *12 maggio 2026*.
-- Lists, tables, forms and footnotes: all figures, separated by full stops: *12.05.2026*.
+How GEN-01 is realised in Italian. Italian has no participle solution, but several role nouns are epicene: *emittente*, *utente*, *titolare*. The moves are epicene and collective nouns, constructions with *chi*, impersonal and passive forms, the function instead of the person, and the full double form in running text.
 
----
+**ITA-04 Work down the ladder in its Italian form.** Stop at the first step that works. The step numbers are those of GEN-01.
 
-## 3 Gender
+1. **Take the person out of the sentence** – name the action, the function or the organisation. *Emesso da* · *Verificato da* · *Segnalare l'emittente*
+2. **A term that has one form for everyone** (epicene or collective). *le persone, l'utenza, il personale, la clientela*
+3. **Participle used as a noun.** No Italian equivalent; skip this step, do not attempt one.
+4. **Describe instead of labelling,** including impersonal and passive forms. *chi utilizza …* · *l'organizzazione che emette* · *l'organizzazione che verifica*
+5. **Full double form, feminine first** – running text only, and only where visibility is the point. *le utenti e gli utenti* · *le cittadine e i cittadini*
+6. **Plain masculine** where steps 1 to 5 fail. Federal guidance treats it as Italian's inclusive form; swiyu reaches it last (`SOURCES.md`, deviations).
 
-How GEN-01 is realised in Italian. Italian has no participle solution, but *emittente* and *utente* are epicene, so two of the three ecosystem roles need no fallback. The moves are epicene and collective nouns, constructions with *chi*, impersonal and passive forms, the function instead of the person, and the full double form in running text.
-
-| Step | Italian realisation |
-|---|---|
-| Take the person out | *Emesso da* · *Controllato da* · *Segnalare l'emittente* |
-| Epicene or collective | *le persone, l'utenza, il personale, la clientela* |
-| Describe instead of label | *chi utilizza …* · *l'organizzazione che emette* · *l'organizzazione che verifica* |
-| Full double form, feminine first | *le utenti e gli utenti* · *le cittadine e i cittadini* |
-
+Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
 - Feminine forms of role and job titles are used where they exist: *la direttrice*, *la presidente*.
 
-**Ecosystem roles** (GEN-04). Not yet through the Italian language service – `[zu prüfen]`. The glossary extract gives *emittente*, *verificatore* and *titolare*; the disagreement is logged in `BACKLOG.md`.
+**ITA-05 Forbidden outright** by the federal Italian directive: the asterisk, `@`, the schwa `ə`, and slashes.
+
+**ITA-06 Ecosystem roles follow the glossary** (GEN-04): *emittente*, *verificatore*, *titolare*.
 
 | Role | Label | Running text |
 |---|---|---|
-| Issuer | *Emesso da* | *l'organizzazione emittente* |
-| Verifier | *Controllato da* | *l'organizzazione che verifica* |
-| Holder / user | *utente* (epicene) | *chi utilizza …* · *l'utente* |
+| Issuer | *Emesso da* | *l'emittente* |
+| Verifier | *Verificato da* | *il verificatore* |
+| Holder / user | *Titolare*; otherwise name the action (step 1) | *chi è titolare di …*; *la persona titolare*; *Lei* where the reader is meant |
 
-**Forbidden outright** by the federal Italian directive: the asterisk, `@`, the schwa `ə`, and slashes.
-
-**The open point.** Federal Italian guidance treats the unmarked masculine as Italian's inclusive form. swiyu reformulates instead and falls back to the plain masculine only when steps 1 to 5 have failed. This departs further from federal practice than the German solution does and needs confirmation from the Italian language service. → `BACKLOG.md`
-
-No other swiyu-specific Italian examples exist yet. Derive from the patterns above and mark the result for review rather than presenting it as settled.
+- *Emittente* and *titolare* are epicene and resolve at step 2.
+- *Verificatore* names an organisation, not a person, so the ladder does not apply to it. It is masculine because the noun is; do not "balance" it with *verificatrice*.
+- *Utente* is epicene and serves for users in general: *chi utilizza …*, *l'utente*.
