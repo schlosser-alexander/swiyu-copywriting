@@ -65,14 +65,20 @@ Open this file when writing or correcting French. The rules follow the Federal C
 
 How GEN-01 is realised in French. French has no participle solution; the moves are epicene nouns, collective nouns, the function instead of the person, relative constructions, and the full doublet.
 
-| Step | French realisation |
-|---|---|
-| Take the person out | *Fitness la Frite souhaite vérifier …* · *Signaler vérificateur* |
-| Epicene or collective | *les personnes, la clientèle, le personnel, l'électorat* |
-| Describe instead of label | *les personnes utilisant …* · *l'entité qui délivre* · *l'entité qui vérifie* |
-| Full doublet, feminine first | *les utilisatrices et les utilisateurs* · *à toutes celles et ceux* |
+**FRA-17 Work down the ladder in its French form.** Stop at the first step that works. The step numbers are those of GEN-01.
 
-**Ecosystem roles** (GEN-04). The glossary terms are the terms: *émetteur*, *vérificateur*, *titulaire*. *Émetteur* and *vérificateur* name an organisation, not a person, so the ladder does not apply to them. *Titulaire* is epicene and resolves at step 2.
+1. **Take the person out of the sentence** – name the action, the function or the organisation. *Fitness la Frite souhaite vérifier …* · *Signaler vérificateur*
+2. **A term that has one form for everyone** (epicene or collective). *les personnes, la clientèle, le personnel, l'électorat*
+3. **Participle used as a noun.** No French equivalent; skip this step, do not attempt one.
+4. **Describe instead of labelling.** *les personnes utilisant …* · *l'entité qui délivre* · *l'entité qui vérifie*
+5. **Full doublet, feminine first** – running text only, and only where visibility is the point. *les utilisatrices et les utilisateurs* · *à toutes celles et ceux*
+6. **Plain masculine agreement** where steps 1 to 5 fail. Reached for adjectives and past participles only (FRA-20), never for a role noun.
+
+Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
+
+**FRA-18 Forbidden outright** by the federal French guide: abbreviated doublets in any form (`·`, `⸱`, `-e-`, `(e)`, `/`), typographic gender markers, and neologisms.
+
+**FRA-19 Ecosystem roles follow the glossary** (GEN-04): *émetteur*, *vérificateur*, *titulaire*.
 
 | Role | Label | Running text |
 |---|---|---|
@@ -80,9 +86,10 @@ How GEN-01 is realised in French. French has no participle solution; the moves a
 | Verifier | *Vérifié par* | *le vérificateur* |
 | Holder / user | *Titulaire*; otherwise name the action (step 1) | *les titulaires*; singular *la personne titulaire*; *vous* where the reader is meant |
 
-**Role nouns take the gender of the noun, not of a person.** *L'émetteur* and *le vérificateur* are masculine because the nouns are; they refer to an organisation. This is grammar; do not "balance" it with a feminine variant.
+- *Émetteur* and *vérificateur* name an organisation, not a person, so the ladder does not apply to them. They are masculine because the nouns are; do not "balance" them with a feminine variant.
+- *Titulaire* is epicene and resolves at step 2.
 
-**Adjectives and past participles.** Where no neutral construction is available, the agreement is plain masculine. Splitting it is forbidden.
+**FRA-20 Adjectives and past participles agree in the plain masculine** where no neutral construction is available. Splitting the agreement is forbidden.
 
 | 🚫 | ✅ |
 |---|---|
@@ -93,7 +100,5 @@ How GEN-01 is realised in French. French has no participle solution; the moves a
 
 - Prefer the last row's route: an epicene noun resolves role and agreement together, and *personnes* being feminine makes *contactées* correct rather than a compromise.
 
-**Salutations.** *Bonjour,* · *Bonjour [Name],* · *Bonjour à toutes et à tous* · *Chères utilisatrices, chers utilisateurs,* where the doublet is warranted.
+**FRA-21 Salutations.** *Bonjour,* · *Bonjour [Name],* · *Bonjour à toutes et à tous* · *Chères utilisatrices, chers utilisateurs,* where the doublet is warranted.
 - 🚫 *Chère Madame, cher Monsieur,* · 🚫 *Chers/chères utilisateurs/trices*
-
-**Forbidden outright** by the federal French guide: abbreviated doublets in any form (`·`, `⸱`, `-e-`, `(e)`, `/`), typographic gender markers, and neologisms.
