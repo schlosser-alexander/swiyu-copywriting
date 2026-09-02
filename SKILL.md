@@ -421,7 +421,7 @@ Settled facts that drafts get wrong often enough to fix here instead of re-check
 
 **WRD-09 Translating from German.**
 - Translate the argument, not the syntax. German tolerates a long gap between subject and verb; French, Italian and English do not. A literal rendering usually has to be split.
-- Account for text expansion. French runs 15 to 20 per cent longer than English, Italian runs longer than English, German runs longer still in compounds. Check a constrained element in every language before the layout is fixed (LEN-01, UXC-11).
+- Account for text expansion. French runs 15 to 20 per cent longer than English, Italian runs longer than English, German runs longer still in compounds. Check a constrained element in every language before the layout is fixed (UXC-11).
 
 ---
 
