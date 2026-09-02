@@ -12,7 +12,6 @@ Open this file for posters, ads, social posts, claims and campaign landing lines
 - **Explain the app** – *It's in your hands* · *The app for my digital credentials*
 - **Spark enthusiasm** – *Paperwork without the paper*
 - **Build trust** – *100% voluntary* · *decentralised, only on your phone*
-- A campaign as a whole hits all three. A single execution need not.
 
 ---
 
