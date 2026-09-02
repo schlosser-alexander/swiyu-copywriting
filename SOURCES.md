@@ -13,7 +13,7 @@ The federal writing rules this skill draws on. Each entry records the edition an
 | Istruzioni per la redazione dei testi ufficiali in italiano | 15 December 2025 | `references/IT.md` | – |
 | Linguaggio inclusivo di genere | 2nd revised edition 2023 | `references/IT.md` `[IT]` | – |
 | Sprachengesetz SR 441.1, art. 7 | – | `SKILL.md` §6.1, gender | – |
-| eCH-0059 v3.0 (WCAG 2.1 AA), adopted by federal directive P028 | check current status of both | `references/text-type-website.md` §10 | – |
+| eCH-0059 v3.0 (WCAG 2.1 AA), adopted by federal directive P028 | check current status of both | `references/text-type-website.md` §9 | – |
 | eid.admin.ch, live | fetched at check time | OPS-04, fact checks | – |
 | Technical documentation, swiyu-admin-ch.github.io/introduction/, live | fetched at check time | OPS-04, fact checks | – |
 
