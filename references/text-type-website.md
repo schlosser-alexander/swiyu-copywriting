@@ -165,4 +165,4 @@ swiyu is bound by eCH-0059 v3.0, which adopts WCAG 2.1 AA. Follow it; this file 
 
 **ACC-04 Abbreviations expanded at first use on every page.** Readers arrive mid-site.
 
-**ACC-05 Truncation follows UXC-21:** avoid, shorten; where unavoidable, an ellipsis plus the full text in a tooltip.
+**ACC-05 Truncation follows UXC-10:** avoid, shorten; where unavoidable, an ellipsis plus the full text in a tooltip.
