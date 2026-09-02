@@ -445,7 +445,7 @@ Applies to every text type unless a type file overrides it.
 
 **MEC-05 Quotation marks.**
 - `[DE]` `«Text»`, no inner space – never `„Text"` or `»Text«`. Nested: `‹ ›`.
-- `[FR]` `«Text»` with a thin non-breaking space inside (→ `references/FR.md`). Nested: `‹ ›`.
+- `[FR]` `«Text»` with a thin non-breaking space inside. Nested: `‹ ›`.
 - `[IT]` `«Text»`, no inner space. Nested: `"…"` inside `«…»`.
 - `[EN]` `'Text'`, single marks. Nested: `'Text "nested" Text'`. Punctuation follows the sense: a full stop sits inside the marks only when it belongs to the quotation.
 - Marks serve quotation, titles of works, and foreign expressions that would otherwise be misread. Not quotation and irony in the same text.
