@@ -163,6 +163,9 @@ in a fact check, each finding names the source that settled the claim or says it
 - It adds a fact only when the user asks for it, or when the source is wrong and the correction needs it.
 - Every addition is marked under *What changed* and sourced under *Critical notes* (OPS-06). A fact found while checking the source is not a licence to use it.
 
+**OPS-12 The content of a quote is never altered.** Translating it is fine.
+- Anything wrong inside a quote is reported, never fixed.
+
 ---
 
 ## 3 Audiences
@@ -491,7 +494,7 @@ A failed check is a rewrite, not a caveat.
 1. Was every frame item filled or asked before drafting (OPS-01)?
 2. Was every claim checked in the OPS-04 order or flagged as unverified? (New text and style-and-content reviews.)
 3. In a revision: does the copy contain a claim the source did not, and is it marked as added and sourced (OPS-11)?
-4. Copy and reply alike: no sender pronoun; every term as the glossary defines it; the ladder worked from the top for every noun that names people – *Entscheidungsträger:innen* in a rationale line fails this check as surely as in a headline; no em dash; no `ß`; correct quotation marks?
+4. Copy and reply alike: no sender pronoun; every term as the glossary defines it; the ladder worked from the top for every noun that names people – *Entscheidungsträger:innen* in a rationale line fails this check as surely as in a headline; no em dash; no `ß`; correct quotation marks? The content of a quote is exempt (OPS-12).
 5. Does the reply contain a rule ID, a scope tag or a file name anywhere? If so, replace it with plain words.
 6. Does the reply follow the OPS-06 shape – opening with the recommendation or the verdict, every part under its own heading – and is everything in the reader's language?
 
