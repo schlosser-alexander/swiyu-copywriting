@@ -2,7 +2,6 @@
 
 Open this file when writing or correcting Italian. The rules follow the *Istruzioni per la redazione dei testi ufficiali in italiano* and the guide *Linguaggio inclusivo di genere*.
 - Quotation marks are settled in `SKILL.md` (MEC-05) and not repeated here.
-- The deviation from federal guidance on the unmarked masculine is recorded in `SOURCES.md`.
 
 ---
 
@@ -27,7 +26,7 @@ How GEN-01 is realised in Italian. Italian has no participle solution, but sever
 3. **Participle used as a noun.** No Italian equivalent; skip this step, do not attempt one.
 4. **Describe instead of labelling,** including impersonal and passive forms. *chi utilizza …* · *l'organizzazione che emette* · *l'organizzazione che verifica*
 5. **Full double form, feminine first** – running text only, and only where visibility is the point. *le utenti e gli utenti* · *le cittadine e i cittadini*
-6. **Plain masculine** where steps 1 to 5 fail. Federal guidance treats it as Italian's inclusive form; swiyu reaches it last (`SOURCES.md`, deviations).
+6. **Plain masculine** where steps 1 to 5 fail. Federal guidance treats it as Italian's inclusive form; swiyu reaches it last.
 
 Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
 - Feminine forms of role and job titles are used where they exist: *la direttrice*, *la presidente*.

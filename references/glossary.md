@@ -1,6 +1,6 @@
 # Glossary – terms
 
-**Exported 31 August 2026** from the swiyu / e-ID glossary on the BIT Weblate instance (`SOURCES.md` holds the URLs). 129 entries, English source. A snapshot, not a live view; a missing term is handled by WRD-06.
+**Exported 31 August 2026** from the swiyu / e-ID glossary on the BIT Weblate instance. 129 entries, English source. A snapshot, not a live view; a missing term is handled by WRD-06.
 
 **Case is significant.** *swiyu Trust Infrastructure* (product name, stays English) and *swiyu trust infrastructure* (generic concept, translated) are separate entries; the same split applies to the trust registry. **The avoid list is not in here** – the export carries no forbidden or terminology flags; WRD-01, WRD-07 and WRD-08 in `SKILL.md` remain the authority on discouraged terms. Concept descriptions are in `references/glossary-descriptions.md`; open it only when the meaning of an entry is in doubt. Romansh is out of scope and omitted.
 

@@ -510,6 +510,5 @@ Paths are relative to the skill root, here and inside the reference files. Decid
 | `references/IT.md` | **Always, when writing Italian** (GEN-07) |
 | `references/EN.md` | An English spelling, contraction or number question |
 | `references/examples.md` | A before-and-after model would settle a question faster than a rule |
-| `SOURCES.md` | The source or currency of a federal rule is in question |
 
 Open questions live in `BACKLOG.md`; they are never treated as rules.

@@ -1,6 +1,6 @@
 # Glossary – concept descriptions
 
-**Exported 31 August 2026** from the swiyu / e-ID glossary on the BIT Weblate instance (`SOURCES.md` holds the URLs). 129 entries, English source. A snapshot, not a live view; a missing term is handled by WRD-06.
+**Exported 31 August 2026** from the swiyu / e-ID glossary on the BIT Weblate instance. 129 entries, English source. A snapshot, not a live view; a missing term is handled by WRD-06.
 
 English throughout, including for German and Italian entries: context for the writer, never copy to translate. The term equivalents are in `references/glossary.md`.
 

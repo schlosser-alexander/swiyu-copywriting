@@ -57,7 +57,7 @@ Resolve each into `SKILL.md` §9 (WRD-07, WRD-08), then delete the row.
 - **Section 10 collapsed.** The federal filter (what applies, what is out of scope) is gone; only the deviations table remains. The filter existed to stop Erlass conventions leaking into marketing copy, and OPS-03 now blocks legal texts outright.
 - **Legal texts are out of scope** (OPS-03), and are referred to the Gesetzestechnische Richtlinien and the Schreibweisungen.
 
-- **Bold is permitted.** MEC-04 now allows italics or bold, one device per text. This deviates from federal guidance, which recommends italics alone, and the deviation is recorded in the deviations table in `SOURCES.md`.
+- **Bold is permitted.** MEC-04 now allows italics or bold, one device per text. This deviates from federal guidance, which recommends italics alone.
 
 - **The generic feminine is retained** as step 6 of the gender ladder. It is the German fallback where no structural, epicene, participle, descriptive or paired solution works, and it matches the e-ID law. It was never on an avoid list.
 
