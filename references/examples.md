@@ -11,7 +11,7 @@ Everything in the ✅ column is approved published copy. The 🚫 versions are c
 > ✅ **Schnellere Prozesse und tiefere Kosten mit digitalen Nachweisen**
 > Ausweise, Bestätigungen, Bewilligungen: Vieles läuft noch auf Papier oder als PDF im E-Mail-Anhang. Das kostet Zeit, ist anfällig für Manipulationen und bindet Ressourcen.
 
-Two rules at once. The h1 states the outcome rather than the mechanism (STR-03). The first body sentence lands on three concrete objects before any abstraction appears (VOI-03), naming the friction before the resolution follows.
+Two rules at once. The h1 states the outcome rather than the mechanism (STR-04). The first body sentence lands on three concrete objects before any abstraction appears (VOI-03), naming the friction before the resolution follows.
 
 > 🚫 *Die swiyu Vertrauensinfrastruktur ermöglicht die effiziente Verarbeitung digitaler Nachweise entlang Ihrer gesamten Prozesskette.*
 
@@ -49,7 +49,7 @@ One sentence, no object the reader can picture, and the benefit arrives as an ab
 > ✅ **Was bringt Ihnen das?**
 > Sie können den Namen und die Identität einer anderen Organisation prüfen, bevor Sie Daten mit dieser teilen.
 
-The first block argues the problem in general terms; the second states what this reader gains, in the second person, as a standalone benefit sentence (STR-07). Neither could be moved into the other block without becoming redundant.
+The first block argues the problem in general terms; the second states what this reader gains, in the second person, as a standalone benefit sentence (STR-08). Neither could be moved into the other block without becoming redundant.
 
 ---
 
