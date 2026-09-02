@@ -19,7 +19,7 @@ Open questions, pending decisions and parked ideas. **Not part of the skill.** N
 | `[FR]` Adjective agreement | The source rule permits a typographic marker where no neutral form exists; its own examples prohibit exactly that. `references/FR.md` follows the examples. | Open |
 | `[IT]` Unmarked masculine | Federal Italian guidance treats it as the inclusive form; GEN-01 reaches it only at step 6. Confirm with the Italian language service before launch – this is a larger departure than the German one. | Open |
 
-| `[FR][IT]` Role terms vs glossary | The role tables in `references/FR.md` and `references/IT.md` use *organisation émettrice / vérificatrice* and *organizzazione emittente*; the 31 Aug 2026 extract gives *émetteur*, *vérificateur*, *emittente*, *verificatore*, *titolare*. Logged per WRD-06. | Open |
+| `[IT]` Role terms vs glossary | The role table in `references/IT.md` uses *organizzazione emittente*; the 31 Aug 2026 extract gives *emittente*, *verificatore*, *titolare*. The French table in `references/FR.md` follows the extract. Logged per WRD-06. | Open |
 
 Resolve each into `SKILL.md` §9 (WRD-07, WRD-08), then delete the row.
 

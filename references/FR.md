@@ -72,15 +72,15 @@ How GEN-01 is realised in French. French has no participle solution; the moves a
 | Describe instead of label | *les personnes utilisant …* · *l'entité qui délivre* · *l'entité qui vérifie* |
 | Full doublet, feminine first | *les utilisatrices et les utilisateurs* · *à toutes celles et ceux* |
 
-**Ecosystem roles** (GEN-04). Derived from the patterns in this file, not yet through the French language service – `[zu prüfen]`. The glossary extract gives *émetteur* and *vérificateur*; the disagreement is logged in `BACKLOG.md`.
+**Ecosystem roles** (GEN-04). The glossary terms are the terms: *émetteur*, *vérificateur*, *titulaire*. *Émetteur* and *vérificateur* name an organisation, not a person, so the ladder does not apply to them. *Titulaire* is epicene and resolves at step 2.
 
 | Role | Label | Running text |
 |---|---|---|
-| Issuer | *Émis par* | *l'organisation émettrice* |
-| Verifier | *Contrôlé par* | *l'organisation vérificatrice* |
-| Holder / user | name the action (step 1) | *les personnes utilisant …*; *les utilisatrices et les utilisateurs* only where visibility is the point |
+| Issuer | *Émis par* | *l'émetteur* |
+| Verifier | *Vérifié par* | *le vérificateur* |
+| Holder / user | *Titulaire*; otherwise name the action (step 1) | *les titulaires*; singular *la personne titulaire*; *vous* where the reader is meant |
 
-**Role nouns take the gender of the noun, not of the person.** *L'organisation émettrice* is feminine because *organisation* is feminine. This is grammar; do not "balance" it with a masculine variant.
+**Role nouns take the gender of the noun, not of a person.** *L'émetteur* and *le vérificateur* are masculine because the nouns are; they refer to an organisation. This is grammar; do not "balance" it with a feminine variant.
 
 **Adjectives and past participles.** Where no neutral construction is available, the agreement is plain masculine. Splitting it is forbidden.
 
