@@ -83,37 +83,7 @@ Open this file when writing or correcting German. It condenses the Federal Chanc
 
 ---
 
-## 5 Abbreviations
-
-**DEU-19 Expand an unavoidable abbreviation at first use on every page** (ACC-04). Readers arrive mid-site.
-
----
-
-## 6 Names of authorities and Swiss derivations
-
-**DEU-20 `Schweizer`, `Berner` and other `-er` forms are always capitalised** and written separately from the noun: *die Schweizer Armee*, *die Berner Altstadt*.
-
-**DEU-21 `schweizerisch` and `eidgenössisch` are lowercase** unless part of a proper name. The most common error; the words sound official either way.
-- ✅ *die schweizerische Vertrauensinfrastruktur*, *das schweizerische Recht*, *die eidgenössischen Räte*
-- ✅ *die Schweizerische Eidgenossenschaft*, *das Eidgenössische Justiz- und Polizeidepartement*
-
-**DEU-22 Authorities take a capital only in their full official name.**
-- Shortened or generic references stay lowercase: *das Bundesamt für Justiz*, but *das zuständige Bundesamt*; *der Bundesrat*, but *die Landesregierung*.
-
-**DEU-23 Look the official name up; do not reconstruct it.** Termdat is the source for names of authorities, states and countries. An authority's name is a term (WRD-06).
-
----
-
-## 7 Capitalisation
-
-**DEU-24 Normal German capitalisation in headings, buttons and labels.**
-- Nouns are capitalised because German capitalises nouns, not because the element is a heading.
-- No title case, no capitals on adjectives or verbs, no full stop.
-- ✅ *Schnellere Prozesse und tiefere Kosten mit digitalen Nachweisen* · 🚫 *Schnellere Prozesse und Tiefere Kosten mit Digitalen Nachweisen*
-
----
-
-## 8 Sentence shape
+## 5 Sentence shape
 
 **DEU-25 Keep the verb close to its subject.** Where more than about eight words separate an auxiliary from its participle, split the sentence.
 
@@ -122,7 +92,7 @@ Open this file when writing or correcting German. It condenses the Federal Chanc
 
 ---
 
-## 9 Wording
+## 6 Wording
 
 **DEU-27 Typical swaps from formal to normal** (WRD-01). A sample; the rule covers every word not on it.
 
@@ -142,7 +112,7 @@ Open this file when writing or correcting German. It condenses the Federal Chanc
 
 ---
 
-## 10 Gender
+## 7 Gender
 
 How GEN-01 is realised in German. The participle solution (step 3) carries most of the load. Only what the ladder, GEN-02 and ADR-01 do not already say:
 
