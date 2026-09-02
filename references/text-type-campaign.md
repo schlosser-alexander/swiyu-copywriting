@@ -37,4 +37,3 @@ Open this file for posters, ads, social posts, claims and campaign landing lines
 ## 4 Form
 
 **CAM-05 The line works without the image.** A line that only makes sense beside its visual fails in audio, in text-only contexts and in assistive technology.
-- A call to action names the next step, not the emotion.
