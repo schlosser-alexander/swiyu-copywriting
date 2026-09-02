@@ -380,7 +380,7 @@ Settled facts that drafts get wrong often enough to fix here instead of re-check
 **WRD-01 From formal to normal, from expert to everyone.**
 - Choose the word a person would say out loud.
 - Same move in every language: *effectuer une vérification* → *vérifier*, *procedere alla registrazione* → *registrarsi*, *submit an application* → *apply*, *Antragstellung* → *beantragen*.
-- `[DE]` The table of typical swaps is in `references/DE.md` (DEU-27); the rule covers every word not on it.
+- `[DE]` The table of typical swaps is in `references/DE.md` (DEU-09); the rule covers every word not on it.
 
 **WRD-02 A technical term that has to stay is defined in half a sentence at first mention,** inside the sentence, once per page.
 - Never define a term with two others.
@@ -470,9 +470,10 @@ Applies to every text type unless a type file overrides it.
 - Never break an address across a line.
 - For a deep page give the entry page and the path: *bk.admin.ch > Dokumentation > Sprachen*.
 
-**MEC-11 `[DE]` Swiss spelling and vocabulary.** → `references/DE.md`
+**MEC-11 `[DE]` Swiss spelling and vocabulary.**
 - *ss*, never *ß*.
-- ✅ *das E-Mail* · *innert* · *Konsumentin* · *parkieren* – 🚫 *die E-Mail* · *innerhalb von* · *Verbraucherin* · *parken*
+- ✅ *das E-Mail* · *innert* · *Konsumentin* · *parkieren* · *Spital* · *Ferien* – 🚫 *die E-Mail* · *innerhalb von* · *Verbraucherin* · *parken* · *Krankenhaus* · *Urlaub*
+- Check the Helvetism list in the Schreibweisungen when a word feels German rather than Swiss; do not work through it as a checklist.
 
 **MEC-12 Numbers, dates, times, currency and percentages follow the federal conventions** of the language. → `references/DE.md`, `references/FR.md`, `references/IT.md`
 
@@ -504,7 +505,7 @@ Paths are relative to the skill root, here and inside the reference files. Decid
 | `references/text-type-*.md` | Writing or restructuring a whole component or page. Not needed to fix a sentence. |
 | `references/glossary.md` | A term needs its approved equivalent in DE, FR or IT, or its grammatical gender |
 | `references/glossary-descriptions.md` | The meaning of a glossary entry is in doubt; never for a plain lookup |
-| `references/DE.md` | A German number, date, currency or capitalisation question, or a formal word that needs a plain swap (WRD-01) |
+| `references/DE.md` | A German number, date, currency or typography question, or a formal word that needs a plain swap (WRD-01) |
 | `references/FR.md` | **Always, when writing French** (GEN-07) |
 | `references/IT.md` | **Always, when writing Italian** (GEN-07) |
 | `references/EN.md` | An English spelling, contraction or number question |

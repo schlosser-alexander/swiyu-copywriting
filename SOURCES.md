@@ -4,10 +4,10 @@ The federal writing rules this skill draws on. Each entry records the edition an
 
 | Document | Edition | Used in | Last verified |
 |---|---|---|---|
-| Schreibweisungen der Bundeskanzlei | 2nd edition 2013, corrected 2015 | `references/DE.md` (Randziffern) | **not yet verified** |
+| Schreibweisungen der Bundeskanzlei | 2nd edition 2013, corrected 2015 | `references/DE.md` | **not yet verified** |
 | Aktualisierungen zu den Schreibweisungen | separate sheets, 2025 | not yet incorporated | – |
 | Leitfaden zur deutschen Rechtschreibung | 4th edition 2017 | not yet incorporated | – |
-| Leitfaden zum geschlechtergerechten Formulieren | – | `references/DE.md` `[DE]` | – |
+| Leitfaden zum geschlechtergerechten Formulieren | – | `SKILL.md` §6.1 `[DE]` | – |
 | Instructions sur la présentation des textes officiels en français | 2016 | `references/FR.md` | – |
 | Pour un usage inclusif du français dans les textes de la Confédération | 2023 | `references/FR.md` `[FR]` | – |
 | Istruzioni per la redazione dei testi ufficiali in italiano | 15 December 2025 | `references/IT.md` | – |
@@ -54,7 +54,7 @@ The Schreibweisungen are cited by Randziffer. The Federal Chancellery does not r
 
 Two consequences:
 
-- Every Randziffer in `references/DE.md` needs one pass against the update sheets, after which the verification date above can be filled in.
-- Until that pass has happened, treat the Randziffern as provenance rather than proof. The rules themselves were extracted deliberately and stand on their own; the citation says where they came from, not that they are current.
+- `references/DE.md` therefore cites no Randziffern. The rules were extracted deliberately and stand on their own.
+- The German rules still need one pass against the update sheets, after which the verification date above can be filled in.
 
 Known change: state and country names now follow Termdat.
