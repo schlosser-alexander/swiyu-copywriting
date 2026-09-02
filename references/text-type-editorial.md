@@ -31,7 +31,7 @@ Open this file for news items, newsletters, blog posts and presentations – tex
 - ✅ *Basisregister offen für Eintragungen* · 🚫 *Das hat sich bei swiyu getan*
 
 **EDT-05 One lead item, then at most three secondary items.** A newsletter with six equal items has no lead.
-- No greeting that pretends to a relationship. *Guten Tag* is enough; the salutation rules in the language file apply.
+- No greeting that pretends to a relationship. *Guten Tag* is enough (ADR-01); French salutations follow FRA-10.
 
 ---
 
