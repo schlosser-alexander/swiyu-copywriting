@@ -2,7 +2,6 @@
 
 Open this file when writing or correcting French. The rules follow the Federal Chancellery's *Instructions sur la présentation des textes officiels en français*.
 - Quotation marks and abbreviations are settled in `SKILL.md` (MEC-05, MEC-06) and not repeated here.
-- The deviation from the federal instructions on *p. ex.* and *etc.* is recorded in `SOURCES.md`.
 
 ---
 
