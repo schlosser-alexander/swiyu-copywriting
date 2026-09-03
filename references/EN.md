@@ -2,7 +2,7 @@
 
 Open this file when writing or correcting English. No federal writing rules cover English, so this file is the whole authority.
 - Where it is silent, follow ordinary British editorial practice and add the decision here rather than deciding twice.
-- Quotation marks, abbreviations, exclamation marks, dashes, contractions, the lowercase *swiyu*, the second person, plain verbs and gender are settled in `SKILL.md` (MEC-05, MEC-06, MEC-08, MEC-09, MEC-13, NAM-01, AUD-01, WRD-01, GEN-05) and not repeated here.
+- Quotation marks, abbreviations, exclamation marks, dashes, contractions, the lowercase *swiyu*, the second person, plain verbs and gender are settled in `SKILL.md` (MEC-05, MEC-06, MEC-08, MEC-09, MEC-13, NAM-01, AUD-02, WRD-01, GEN-05) and not repeated here.
 
 ---
 
