@@ -18,11 +18,12 @@ Rules for writing and reviewing swiyu texts.
 
 **Order of authority.** A lower rank never overrides a higher one.
 
-1. **The customer-facing glossary** – it defines the terms. Style never overrides a defined term.
+1. **The glossary** – `references/glossary.md`, a dated extract; it defines the terms. Style never overrides a defined term.
 2. **This file**, including the reference files it points to.
 3. **Federal writing rules** for German, French and Italian.
 4. **Industry practice** – for anything the ranks above leave open.
 
+- **An explicit user instruction outranks every rank for the copy.** Follow it, and name the conflict under *Critical notes* – what the instruction overrides and what the conforming form would be. The override never reaches the reply: the reply keeps every rule. It never reaches facts either: a claim that cannot be sourced is not written, whoever asks.
 - Approved swiyu texts are a source for **facts** (OPS-04), not for **style**. Where published copy breaks a rule here, the rule stands and the copy is reported.
 - Readability and rhythm are tuned inside the room the ranks leave. They never outrank a rank. A clumsy sentence is rewritten, not exempted.
 
@@ -30,7 +31,7 @@ Rules for writing and reviewing swiyu texts.
 
 ## 2 How to work
 
-**OPS-01 Settle the frame first.** Walk this table before anything is written. A row that cannot be filled from the request or the material is asked.
+**OPS-01 Settle the frame first.** A request that is no text task at all – nothing to write, revise, review, translate or fact-check – is handed back in one sentence: this skill covers swiyu copywriting only. Nothing is asked, nothing is drafted. For everything else, walk this table before anything is written. A row that cannot be filled from the request or the material is asked.
 
 | Item | Filled from | If missing, ask |
 |---|---|---|
@@ -67,13 +68,14 @@ Two more rows apply to a revision only. Ask them when the request does not say:
 
 - **A claim is** any statement about what swiyu does, how it works, who operates what, what the law requires, when something happens, or any figure. Capability statements always count. Benefit framing and reader address do not.
 - **Sources, in order:**
-  1. the customer-facing glossary – for what a term means
+  1. the glossary (`references/glossary.md`) – for what a term means
   2. eid.admin.ch – found with a site-restricted search (`site:eid.admin.ch <term>`), then opened from the search result
   3. the technical documentation – found with `site:swiyu-admin-ch.github.io <term>`, then opened from the search result
   4. official federal publications – for what the law requires
   5. for anything not swiyu-specific: the documentation of the body that defines it, never a summary of it
 - **Never type a web address yourself.** A page can only be opened from an address that came back from a search or that the user pasted. An address written from memory fails. Search the site for the term, open the result. If no result covers the claim, or the page cannot be opened, the claim is unverified – no second attempt on a guessed address.
-- **A fact check as a task** uses exactly two sources: eid.admin.ch and the technical documentation, each reached by site-restricted search. Report, per claim, which one settled it. A claim neither settles is unverified; never resolve it from the wider list or from memory.
+- **Where no web search is available,** the check cannot run. Say so once under *Critical notes*, mark every claim the check would have covered as unverified, and deliver the copy.
+- **A fact check as a task** uses exactly two sources: eid.admin.ch and the technical documentation, each reached by site-restricted search. Report, per claim, which one settled it. A claim neither settles is unverified; never resolve it from the wider list or from memory. Without web search, a fact check cannot run at all: the verdict says so, and every claim is listed as unverified.
 - **Approved means** live on eid.admin.ch, or explicitly marked final. Drafts, design files and earlier output of this skill do not count. Ask when the status is unclear.
 - **Never enough on its own:** general knowledge, a search result, plausibility. A search locates the page; only the opened page settles the claim. Where sources disagree or are silent, flag the claim as unverified.
 - **When the rule runs:** in full for style-and-content reviews and for new text. Not in a style review.
@@ -394,17 +396,16 @@ Settled facts that drafts get wrong often enough to fix here instead of re-check
 - An approved term is not simplified either: *Nachweis*, *ausstellende Organisation*, *Vertrauensinfrastruktur*, *e-ID* stay as they are.
 - Idioms and metaphors stay out of body copy; they are the first thing to break in translation.
 
-**WRD-05 A term missing from the customer-facing glossary** is resolved in this order:
+**WRD-05 A term missing from the glossary** is resolved in this order:
 1. the internal technical glossary
 2. the relevant standards body's naming
 3. a flag for the Naming & Wording Committee
 - Never invent a term without flagging it.
 
-**WRD-06 The glossary decides which term corresponds to which; this skill carries a dated extract.**
-- `references/glossary.md` states its export date and is not automatically current.
-- A missing term is reported as missing and resolved by WRD-05, never guessed.
+**WRD-06 The glossary decides which term corresponds to which.**
+- `references/glossary.md` states its export date; a term it lacks is reported as missing and resolved by WRD-05, never guessed.
 - Match case exactly: capitalised product names and lowercase generic concepts are separate entries.
-- Where the extract and §9 disagree, the glossary decides which term, §9 decides how it is used. Record the disagreement in `BACKLOG.md`.
+- Where the glossary and §9 disagree, the glossary decides which term, §9 decides how it is used. Record the disagreement in `BACKLOG.md`.
 
 **WRD-07 Checking and verification are two different acts, in every language.**
 - *Checking* is the operational act of examining a presented credential – at the counter, in the app, at the API.
