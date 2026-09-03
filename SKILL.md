@@ -36,7 +36,7 @@ Rules for writing and reviewing swiyu texts.
 |---|---|---|
 | Task – review, revise, write, fact check | the request | *What should happen to the text?* – options from the task list |
 | Depth | OPS-10 | never asked; decided by OPS-10 |
-| Audience | the request, or unmistakable from the material | *Who will read the text?* – the three audiences from §3, one clause each |
+| Audience | the request, or unmistakable from the material | *Should the text be optimised for a specific audience?* – *No* always first, then the audiences from §3, one clause each; option list below |
 | Text type | the request | *Should the text be optimised for a specific text type?* – *No* always first, then the §4 types that fit the material; option list below |
 | Context – the slot the text fills: component, page, what sits before and after | the request | *Where will the text sit?* – open question |
 | Language | the request; the material's language if the request is silent | only when material and request differ in language |
@@ -50,6 +50,15 @@ Two more rows apply to a revision only. Ask them when the request does not say:
 
 - Questions go in their own message, before any copy. Never draft and ask in the same reply.
 - One message, closed questions, recommended answer first: at most four questions, two to four options each, one clause per option. Context is the one open question.
+- Option list for the audience question. Never assume an audience:
+
+```
+Should the text be optimised for a specific audience?
+1. No – general swiyu rules only
+2.–4. [the audiences from §3 that fit the material, one clause each]
+```
+
+- *No* means: no audience rule applies beyond formal address. This file covers the text.
 - Option list for the text-type question. Never assume a type:
 
 ```
@@ -176,15 +185,17 @@ in a fact check, each finding names the source that settled the claim or says it
 | `[ORG]` | Decision-makers and project leads in companies and authorities | Professional, plain, never stiff | Terms allowed when explained in half a sentence |
 | `[DEV]` | People integrating swiyu | Precise, short | Full; each term introduced once |
 
-**AUD-01 Address formally, write informally.**
+**AUD-01 Identify the audience before applying any audience rule.** If the user chose no audience (OPS-01), no audience rule applies except AUD-02; write for a general reader, and the `[DEV]` exemption in WRD-02 does not apply either.
+
+**AUD-02 Address formally, write informally.**
 - `[DE]` *Sie* · `[FR]` *vous* · `[IT]` *Lei* · `[EN]` *you*
 - Formal address does not mean bureaucratic phrasing.
 
-**AUD-02 `[PRIV]` gets no technical explanation.**
+**AUD-03 `[PRIV]` gets no technical explanation.**
 - No cryptography, architecture or data-protection vocabulary beyond one plain sentence.
 - Lead with everyday benefit: time, convenience, control, security. In a revision, that means choosing and ordering what the source offers, not sourcing new benefits (OPS-11).
 
-**AUD-03 `[ORG]` gets a concrete business case.**
+**AUD-04 `[ORG]` gets a concrete business case.**
 - Effort avoided, integration effort, use cases across sectors.
 - Quantify only what OPS-04 supports.
 
