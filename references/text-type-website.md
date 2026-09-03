@@ -26,6 +26,8 @@ Characters, including spaces, measured against the finalised pages. Budget is th
 | body | 115 | 254 | 254 per paragraph |
 | button label | 13 | 19 | 25 |
 
+FAQ entries are unbudgeted (§8).
+
 ---
 
 ## 2 Rules for every piece of website copy
@@ -107,6 +109,8 @@ A card is a heading with a short paragraph, leading somewhere: clickable as a wh
 **STR-11 The question is phrased as the reader would ask it,** not as the organisation would title it.
 
 **STR-12 The answer opens with the answer.** Context follows.
+
+**STR-13 FAQ questions and answers carry no length budget;** the table in §1 does not apply to them. Their brevity comes from STR-12 and the sentence rules in `SKILL.md`.
 
 ---
 
