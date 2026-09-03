@@ -129,7 +129,6 @@ in a fact check, each item names the source that settled the claim or says it is
 ```
 
 - Nothing comes before the recommendation or the verdict.
-- *What changed*, *Findings* and *Critical notes* are always lists, never a paragraph: bulleted for the first two, numbered for *Critical notes*. One item per point, even when there is only one.
 - Reviews and revisions deliver the recommendation alone; an alternative is produced on request.
 - Factual answers and confirmations take no variants.
 
