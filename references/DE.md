@@ -1,7 +1,7 @@
 # German
 
 Open this file when writing or correcting German. It condenses the Federal Chancellery's Schreibweisungen to what swiyu texts need and records where swiyu departs from them.
-- Swiss spelling and vocabulary, abbreviations, dashes and gender are settled in `SKILL.md` (MEC-11, MEC-06, MEC-09, GEN-01) and not repeated here.
+- Swiss spelling and vocabulary, abbreviations, dashes and gender are settled in `SKILL.md` (MEC-12, MEC-06, MEC-09, GEN-01) and not repeated here.
 
 ---
 
