@@ -432,6 +432,7 @@ Applies to every text type unless a type file overrides it.
 **MEC-01 Sentence length: median 13 words.**
 - At most one in ten over 20.
 - Hard cap 25, and only where a limit or caveat needs it.
+- Vary the length deliberately: a text where every sentence sits near the median reads flat. Let long and short alternate, and place a short sentence where the text should pause – a conclusion, a turn, an answer, the one thing the reader must retain.
 
 **MEC-02 Headings carry no bold, no italics and no full stop.**
 
@@ -464,20 +465,24 @@ Applies to every text type unless a type file overrides it.
 - Hyphen closed up to join: compound modifiers (*open-source documents*); compounds on a name, abbreviation or figure (*E-Mail-Adresse*, *ID-Nummer*, *EU-weit*); suspended compounds (*Vor- und Nachteile*).
 - swiyu product names take no hyphen (NAM-02).
 
-**MEC-10 Web addresses carry no protocol** and read as the site presents itself.
+**MEC-10 A colon may split a sentence into announcement and delivery** where it replaces a heavier construction – a subordinate clause, a filler verb, a long run-up.
+- ✅ *Konkret heisst das: …* · 🚫 *Das bedeutet konkret, dass …* · ✅ *The reason: …* · 🚫 *This is due to the fact that …*
+- Sparingly: the device lives on contrast, and two in a row cancel each other.
+
+**MEC-11 Web addresses carry no protocol** and read as the site presents itself.
 - ✅ *swiyu.admin.ch*, *www.admin.ch* · 🚫 *https://swiyu.admin.ch*
 - `www` belongs to a root domain only, never a subdomain (*bk.admin.ch*).
 - Never break an address across a line.
 - For a deep page give the entry page and the path: *bk.admin.ch > Dokumentation > Sprachen*.
 
-**MEC-11 `[DE]` Swiss spelling and vocabulary.**
+**MEC-12 `[DE]` Swiss spelling and vocabulary.**
 - *ss*, never *ß*.
 - ✅ *das E-Mail* · *innert* · *Konsumentin* · *parkieren* · *Spital* · *Ferien* – 🚫 *die E-Mail* · *innerhalb von* · *Verbraucherin* · *parken* · *Krankenhaus* · *Urlaub*
 - Check the Helvetism list in the Schreibweisungen when a word feels German rather than Swiss; do not work through it as a checklist.
 
-**MEC-12 Numbers, dates, times, currency and percentages follow the federal conventions** of the language. → `references/DE.md`, `references/FR.md`, `references/IT.md`
+**MEC-13 Numbers, dates, times, currency and percentages follow the federal conventions** of the language. → `references/DE.md`, `references/FR.md`, `references/IT.md`
 
-**MEC-13 `[EN]` British English.** → `references/EN.md`
+**MEC-14 `[EN]` British English.** → `references/EN.md`
 - *-ise*, *-our*
 - Common contractions are fine, colloquial ones not.
 
