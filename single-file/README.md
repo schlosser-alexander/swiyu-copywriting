@@ -1,6 +1,6 @@
 # swiyu copywriting as a single-file skill
 
-`swiyu-copywriting.md` is the flat version of the swiyu copywriting skill for tools that support only single-file skills, such as Open WebUI (Workspace > Skills). It is hand-condensed from the Claude version in the repository root (`SKILL.md` and `references/`), which stays the reference and is not touched by this folder.
+`swiyu-copywriting.md` is the flat version of the swiyu copywriting skill for tools that support only single-file skills, such as Open WebUI (Workspace > Skills). It is hand-condensed from the progressive-disclosure version in `progressive-disclosure/swiyu-copywriting/` (`SKILL.md` and `references/`), which stays the reference and is not touched by this folder.
 
 ## Glossary link
 
@@ -34,7 +34,7 @@
 Rule IDs are identical in both versions. When a rule changes in `SKILL.md` or a reference file, mirror the change under the same ID in `swiyu-copywriting.md`. A new rule gets the next free ID in both files. This one-liner shows any ID present in one version and missing in the other:
 
 ```
-diff <(cat SKILL.md references/*.md | grep -oE '\b[A-Z]{3}-[0-9]{2}\b' | sort -u) <(grep -oE '\b[A-Z]{3}-[0-9]{2}\b' openwebui/swiyu-copywriting.md | sort -u)
+diff <(cat progressive-disclosure/swiyu-copywriting/SKILL.md progressive-disclosure/swiyu-copywriting/references/*.md | grep -oE '\b[A-Z]{3}-[0-9]{2}\b' | sort -u) <(grep -oE '\b[A-Z]{3}-[0-9]{2}\b' single-file/swiyu-copywriting.md | sort -u)
 ```
 
 ## Checking the output after import
