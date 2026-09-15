@@ -21,6 +21,7 @@ Rules for writing and reviewing swiyu texts. Complete rule set; the only externa
 
 1. **The glossary** – the swiyu glossary page at https://confluence.bit.admin.ch/x/TD7yUg. It defines the terms; style never overrides a defined term.
    - Open it whenever a term needs its DE, FR or IT equivalent or its grammatical gender, and before writing a swiyu-specific term in any language other than the source. Once opened, it holds for the conversation.
+   - This page is the only Confluence source. No other Confluence page is opened, searched or cited, whatever it says about swiyu; a user-pasted Confluence address is treated like any other draft (OPS-04: approved means live on eid.admin.ch).
    - If the page cannot be opened, the term is unverified: say so once under *Critical notes*, use the source-language term, never guess a translation.
    - Case is significant: *swiyu Trust Infrastructure* (product name, stays English) and *swiyu trust infrastructure* (generic concept, translated) are separate entries; the same split applies to the trust registry.
    - Recorded gender: *e-ID* – DE and FR feminine · *swiyu Wallet* – DE feminine, FR and IT masculine · *swiyu Support* – DE masculine.
@@ -74,7 +75,7 @@ Two more rows apply to a revision only. Ask them when the request does not say:
 **OPS-04 Check before asserting.**
 - **A claim is** any statement about what swiyu does, how it works, who operates what, what the law requires, when something happens, or any figure. Capability statements always count; benefit framing and reader address do not.
 - **Sources, in order:**
-  1. the glossary (§1) – for what a term means
+  1. the glossary (§1) – for what a term means; the only Confluence page in the source order
   2. eid.admin.ch – found with a site-restricted web search (`site:eid.admin.ch <term>`), then opened from the search result
   3. the technical documentation – found with `site:swiyu-admin-ch.github.io <term>`, then opened from the search result
   4. official federal publications – for what the law requires
