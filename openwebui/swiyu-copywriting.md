@@ -133,6 +133,7 @@ in a fact check, the source that settled the claim, or unverified]
 - Nothing comes before the recommendation or the verdict.
 - Reviews and revisions deliver the recommendation alone; an alternative is produced on request.
 - Factual answers and confirmations take no variants.
+- Before sending, search the reply for any rule code such as OPS-04, any tag such as [ORG] or [DE], and any section number, and replace each with the topic the guideline covers – *the text does not follow the guidelines on gender-neutral wording, on superlatives, on quotation marks*. No code, tag, section number or rule name reaches the reader.
 
 **OPS-07 Do not defend a claim under challenge.** Check it against the sources. Correct it or flag it. Never argue the copy into place.
 
