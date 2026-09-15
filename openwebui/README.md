@@ -2,16 +2,9 @@
 
 `swiyu-copywriting.md` is the flat, single-file version of the swiyu copywriting skill for Open WebUI (Workspace > Skills). It is hand-condensed from the Claude version in the repository root (`SKILL.md` and `references/`), which stays the reference and is not touched by this folder.
 
-## Before importing
+## Glossary link
 
-Replace the two placeholders in `swiyu-copywriting.md`:
-
-| Placeholder | Replace with |
-|---|---|
-| `<CONFLUENCE-URL-GLOSSARY>` | the Confluence page carrying the glossary term table (EN, DE, FR, IT) |
-| `<CONFLUENCE-URL-GLOSSARY-DESCRIPTIONS>` | the page carrying the concept descriptions, or the same page if both live together |
-
-The model opens these pages itself when a term needs its equivalent or its gender. The Mistral instance must be able to reach Confluence.
+§1 of the skill points to the glossary page in Confluence (https://confluence.bit.admin.ch/x/TD7yUg), which carries the term table and the concept descriptions. The model opens it itself when a term needs its equivalent or its gender, so the Mistral instance must be able to reach Confluence. If the page moves, change the address in §1 of `swiyu-copywriting.md`.
 
 ## Import
 

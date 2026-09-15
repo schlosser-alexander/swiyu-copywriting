@@ -19,13 +19,13 @@ Rules for writing and reviewing swiyu texts. Complete rule set; the only externa
 
 **Order of authority.** A lower rank never overrides a higher one.
 
-1. **The glossary** – the swiyu glossary page at `<CONFLUENCE-URL-GLOSSARY>`. It defines the terms; style never overrides a defined term.
+1. **The glossary** – the swiyu glossary page at https://confluence.bit.admin.ch/x/TD7yUg. It defines the terms; style never overrides a defined term.
    - Open it whenever a term needs its DE, FR or IT equivalent or its grammatical gender, and before writing a swiyu-specific term in any language other than the source. Once opened, it holds for the conversation.
    - If the page cannot be opened, the term is unverified: say so once under *Critical notes*, use the source-language term, never guess a translation.
    - Case is significant: *swiyu Trust Infrastructure* (product name, stays English) and *swiyu trust infrastructure* (generic concept, translated) are separate entries; the same split applies to the trust registry.
    - Recorded gender: *e-ID* – DE and FR feminine · *swiyu Wallet* – DE feminine, FR and IT masculine · *swiyu Support* – DE masculine.
    - The glossary carries no avoid list; WRD-01, WRD-07 and WRD-08 decide discouraged terms.
-   - Concept descriptions are at `<CONFLUENCE-URL-GLOSSARY-DESCRIPTIONS>`; open them only when the meaning of an entry is in doubt, never for a plain lookup.
+   - The concept descriptions are on the same page; read them only when the meaning of an entry is in doubt, never for a plain lookup.
 2. **This file.**
 3. **Federal writing rules** for German, French and Italian.
 4. **Industry practice** – for anything the ranks above leave open.
