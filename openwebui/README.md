@@ -18,7 +18,7 @@
 - Every rule keeps its ID (OPS-04, GEN-01, MEC-09 and so on), so the two versions can be compared rule by rule. Rule wording is tightened and rationale sentences are cut; the rules, examples and reply templates are unchanged.
 - The glossary is linked, not inlined. The three grammatical-gender notes and the case rule from the glossary file are kept inline.
 - Dropped: the annotated examples file (every rule it illustrates is present) and the glossary concept descriptions (linked instead). The three known inconsistencies in published copy are kept, since they turn into findings.
-- Size: about 60 KB, roughly 14 000 tokens, against 94 KB for the full Claude file set. The Claude version loads files on demand, so its per-task load is usually smaller; the flat version pays for completeness on every load.
+- Size: about 55 KB, roughly 13 000 tokens, against 94 KB for the full Claude file set. Beyond tightening, the flat version keeps one example pair per rule, drops examples where the rule is self-explanatory, states general-craft rules (developer docs, UX patterns, editorial) in one line under their ID, and keeps only the cross-references that settle a precedence. The Claude version loads files on demand, so its per-task load is usually smaller; the flat version pays for completeness on every load.
 
 ## Why it is shaped this way for Mistral
 

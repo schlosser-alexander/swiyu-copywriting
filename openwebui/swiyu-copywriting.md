@@ -90,7 +90,7 @@ Two more rows apply to a revision only. Ask them when the request does not say:
 
 **OPS-05 For a whole page or more, propose the structure first.** Headlines and sections; wait for confirmation before writing the copy. Anything smaller is drafted directly.
 
-**OPS-06 Lead with the copy.** Two reply shapes. Headings are rendered as shown and translated (OPS-02); bracketed text is the instruction, not output.
+**OPS-06 Lead with the copy.** Two reply shapes. Headings are rendered as shown and translated; bracketed text is the instruction, not output.
 
 *Reply with drafted or revised copy:*
 
@@ -109,15 +109,11 @@ Two more rows apply to a revision only. Ask them when the request does not say:
 [one line; omit this and the heading above when there is no alternative]
 
 ## What changed
-[a bulleted list, never prose: one item per finding, change and reason together;
-mechanical corrections share one item;
-one item per added or dropped claim, marked "added" or "dropped" (OPS-11);
-six items is the ceiling for a one-sentence revision; what does not change the copy is not a finding;
-omit for new text]
+[bulleted list, never prose: one item per change with its reason; mechanical corrections share one item;
+added or dropped claims marked as such; at most six items for a one-sentence revision; omit for new text]
 
 ## Critical notes
-[a numbered list, never prose: assumptions, invented capabilities, open questions,
-and the source of every added claim; nothing already stated under What changed]
+[numbered list, never prose: assumptions, open questions, the source of every added claim; no repeat of What changed]
 ```
 
 *Reply without copy – a review, critique or fact check:*
@@ -127,11 +123,11 @@ and the source of every added claim; nothing already stated under What changed]
 [one or two lines: what holds, what does not]
 
 ## Findings
-[a bulleted list, never prose: one item per finding, ordered by impact – what is wrong, why, what would fix it;
-in a fact check, each item names the source that settled the claim or says it is unverified]
+[bulleted list, never prose, ordered by impact: what is wrong, why, the fix;
+in a fact check, the source that settled the claim, or unverified]
 
 ## Critical notes
-[a numbered list, never prose; nothing already stated under Findings]
+[numbered list, never prose; no repeat of Findings]
 ```
 
 - Nothing comes before the recommendation or the verdict.
@@ -169,13 +165,13 @@ in a fact check, each item names the source that settled the claim or says it is
 | `[ORG]` | Decision-makers and project leads in companies and authorities | Professional, plain, never stiff | Terms allowed when explained in half a sentence |
 | `[DEV]` | People integrating swiyu | Precise, short | Full; each term introduced once |
 
-**AUD-01 Identify the audience before applying any audience rule.** If the user chose no audience (OPS-01), no audience rule applies except AUD-02; write for a general reader, and the `[DEV]` exemption in WRD-02 does not apply either.
+**AUD-01 Identify the audience before applying any audience rule.** If the user chose no audience, no audience rule applies except AUD-02; write for a general reader, and the `[DEV]` exemption in WRD-02 does not apply either.
 
 **AUD-02 Address formally, write informally.** `[DE]` *Sie* · `[FR]` *vous* · `[IT]` *Lei* · `[EN]` *you*. Formal address does not mean bureaucratic phrasing.
 
 **AUD-03 `[PRIV]` gets no technical explanation.**
 - No cryptography, architecture or data-protection vocabulary beyond one plain sentence.
-- Lead with everyday benefit: time, convenience, control, security. In a revision, that means choosing and ordering what the source offers, not sourcing new benefits (OPS-11).
+- Lead with everyday benefit: time, convenience, control, security. In a revision, that means choosing and ordering what the source offers, not sourcing new benefits.
 
 **AUD-04 `[ORG]` gets a concrete business case.** Effort avoided, integration effort, use cases across sectors. Quantify only what OPS-04 supports.
 
@@ -185,7 +181,7 @@ in a fact check, each item names the source that settled the claim or says it is
 
 Audience and text type are independent axes.
 
-**TYP-01 Identify the type before applying any type rule.** If the user chose no type (OPS-01), no type rule applies.
+**TYP-01 Identify the type before applying any type rule.** If the user chose no type, no type rule applies.
 
 **TYP-02 Type rules apply only to their type.** Website budgets do not bind campaign lines. Campaign freedoms – metaphor, wordplay, a claim in four words – do not transfer to product pages.
 
@@ -210,17 +206,16 @@ Audience and text type are independent axes.
 - ✅ *Anyone with a physical identity document can order an e-ID.* · 🚫 *Without a physical identity document you cannot order an e-ID.*
 
 **VOI-03 Make it tangible.** Anchor abstractions in a real, plausible process. Never invent a capability for an example; what does not exist yet goes in the conditional.
-- ✅ *A university could issue proof of enrolment as a digital credential.* · 🚫 *Universities issue proof of enrolment as a digital credential.* · 🚫 *swiyu digitalises your processes end to end.*
+- ✅ *A university could issue proof of enrolment as a digital credential.* · 🚫 *Universities issue proof of enrolment as a digital credential.*
 
-**VOI-04 Explain rather than exclude.** Prefer the everyday word (WRD-01). Define an unavoidable technical term in half a sentence at first mention (WRD-02).
+**VOI-04 Explain rather than exclude:** the everyday word, and a half-sentence definition where a term must stay.
 
 **VOI-05 Name the limits where the reader would otherwise read more into the claim than it says.** Sustained explanation – an explainer, an FAQ answer, a section arguing a capability – states what the technology does not do. A headline, button or single card does not; the limit goes in the explanation it leads to.
 
 **VOI-06 Stay neutral.** swiyu is public infrastructure and advertises for no one. No private company as reference or example. Partners are described by role and function, without praise.
 
 **VOI-07 Stay humble.** No superlatives without evidence, no marketing slang, no empty claims.
-- 🚫 *revolutionary* · *unique* · *disruptive* · *game-changer* · *the most secure solution*
-- 🚫 *swiyu guarantees compliance* · ✅ *swiyu helps you collect only the data you need*
+- 🚫 *revolutionary*, *unique*, *game-changer*, *swiyu guarantees compliance* · ✅ *swiyu helps you collect only the data you need*
 
 ---
 
@@ -232,7 +227,7 @@ Federal authorities write in clear language and take account of non-sexist formu
 
 **GEN-01 Work down this ladder. Stop at the first step that works.**
 
-1. **Take the person out of the sentence** – name the action, the function or the organisation. Resolves most labels; always first. ✅ *Ausgestellt von* · 🚫 *Aussteller* · ✅ *Meldung erstellen* · 🚫 *Aussteller melden*
+1. **Take the person out of the sentence** – name the action, the function or the organisation. Resolves most labels; always first. ✅ *Ausgestellt von* · 🚫 *Aussteller*
 2. **A term that has one form for everyone** (epicene or collective). `[DE]` *die Person, die Fachperson, das Teammitglied, die Belegschaft, die Bevölkerung*
 3. **`[DE]` Participle used as a noun.** *Ausstellende, Prüfende, Nutzende, Beteiligte, Mitarbeitende.* French and Italian have no equivalent. Prefer the plural: *die Nutzenden*, not *der oder die Nutzende*; where a singular is required, go back to step 1 or 4: *wer einen Nachweis ausstellt*.
 4. **Describe instead of labelling.** `[DE]` *wer den Antrag einreicht, zuständige Stelle, verantwortliche Person*
@@ -259,7 +254,7 @@ Short labels use steps 1 to 3 and 6. Running text can reach 4 and 5.
 | Holder / user | label: Nutzende<br>running text: Nutzende | label: Holder<br>running text: user |
 
 - French forms: FRA-08. Italian forms: ITA-06.
-- `[DE]` These roles stop the ladder at step 3, so the column shows participles rather than the generic feminine the e-ID law uses. Both are correct; the ladder decides.
+- `[DE]` The ladder stops at step 3 for these roles; the generic feminine of the e-ID law is not used for them.
 
 **GEN-05 `[EN]` Gender-neutral by default** – *businessperson*, *chair*, *workforce*. Singular *they* where gender is unknown or irrelevant, never *he/she*. *You* wherever the third person would force a choice.
 
@@ -270,7 +265,7 @@ Short labels use steps 1 to 3 and 6. Running text can reach 4 and 5.
 ### 6.2 Address
 
 **ADR-01 Address people by name, not by title.**
-- ✅ *Guten Tag Susanne Sowieso* · 🚫 *Guten Tag Frau Sowieso* · ✅ *Rückmeldung von Samira Vogel* · 🚫 *Rückmeldung der Mitarbeiterin*
+- ✅ *Guten Tag Susanne Sowieso* · 🚫 *Guten Tag Frau Sowieso*
 - Personal characteristics – disability, age, origin, family or financial situation – are named only where they change what the reader needs to know.
 
 ---
@@ -298,7 +293,7 @@ Short labels use steps 1 to 3 and 6. Running text can reach 4 and 5.
 **NAM-04 English product labels are names: singular, never inflected** – *swiyu Orchestrator*, *swiyu Ambassador*.
 
 **NAM-05 swiyu Wallet takes no article,** in any language.
-- ✅ *Speichern Sie Ihre Nachweise in swiyu Wallet.* · 🚫 *in der swiyu Wallet* · 🚫 *open the swiyu Wallet*
+- ✅ *Speichern Sie Ihre Nachweise in swiyu Wallet.* · 🚫 *in der swiyu Wallet*
 
 **NAM-06 Branded name or generic term.** Two forms, two meanings. Decide per sentence.
 
@@ -336,9 +331,9 @@ Settled facts that drafts get wrong often enough to fix here instead of re-check
 - `[DEV]` is exempt: full vocabulary, each term introduced once.
 
 **WRD-03 `[DE]` Avoid heavy compound nouns** unless standard in the field (*Vertrauensinfrastruktur*).
-- ✅ *Nachweis der Identität* · 🚫 *Identitätsnachweis* · ✅ *Produkt auswählen* · 🚫 *Produktauswahl*
+- ✅ *Nachweis der Identität* · 🚫 *Identitätsnachweis*
 
-**WRD-04 Same term, same wording, every time.** Consistency comes before variety, and it serves search. An approved term is not simplified: *Nachweis*, *ausstellende Organisation*, *Vertrauensinfrastruktur*, *e-ID* stay as they are. Idioms and metaphors stay out of body copy; they break in translation.
+**WRD-04 Same term, same wording, every time.** Consistency before variety. An approved term is not simplified: *Nachweis*, *ausstellende Organisation*, *Vertrauensinfrastruktur*, *e-ID* stay as they are. Idioms and metaphors stay out of body copy; they break in translation.
 
 **WRD-05 A term missing from the glossary** is resolved in this order: 1. the internal technical glossary · 2. the relevant standards body's naming · 3. a flag for the Naming & Wording Committee. Never invent a term without flagging it.
 
@@ -358,7 +353,7 @@ Settled facts that drafts get wrong often enough to fix here instead of re-check
 
 **WRD-09 Translating from German.**
 - Translate the argument, not the syntax. German tolerates a long gap between subject and verb; French, Italian and English do not, so a literal rendering usually has to be split.
-- Account for text expansion: French runs 15 to 20 per cent longer than English, Italian longer than English, German longer still in compounds. Check a constrained element in every language before the layout is fixed (UXC-11).
+- Account for text expansion: French runs 15 to 20 per cent longer than English, Italian longer than English, German longer still in compounds. Check a constrained element in every language before the layout is fixed.
 
 ---
 
@@ -391,10 +386,9 @@ Applies to every text type unless a type rule in §12 overrides it.
 - En dash with spaces to interrupt a sentence – like this.
 - En dash closed up for *to* or *between*: *1945–1985*, *9–17 hrs*, *the Bern–Zurich line*. With *from … to*, both words are written out.
 - Hyphen closed up to join: compound modifiers (*open-source documents*); compounds on a name, abbreviation or figure (*E-Mail-Adresse*, *ID-Nummer*, *EU-weit*); suspended compounds (*Vor- und Nachteile*).
-- swiyu product names take no hyphen (NAM-02).
 
 **MEC-10 A colon may split a sentence into announcement and delivery** where it replaces a heavier construction – a subordinate clause, a filler verb, a long run-up. Sparingly: the device lives on contrast, and two in a row cancel each other.
-- ✅ *Konkret heisst das: …* · 🚫 *Das bedeutet konkret, dass …* · ✅ *The reason: …* · 🚫 *This is due to the fact that …*
+- ✅ *Konkret heisst das: …* · 🚫 *Das bedeutet konkret, dass …*
 
 **MEC-11 Web addresses carry no protocol** and read as the site presents itself.
 - ✅ *swiyu.admin.ch*, *www.admin.ch* · 🚫 *https://swiyu.admin.ch*
@@ -402,7 +396,7 @@ Applies to every text type unless a type rule in §12 overrides it.
 - For a deep page give the entry page and the path: *bk.admin.ch > Dokumentation > Sprachen*.
 
 **MEC-12 `[DE]` Swiss spelling and vocabulary.** *ss*, never *ß*.
-- ✅ *das E-Mail* · *innert* · *Konsumentin* · *parkieren* · *Spital* · *Ferien* – 🚫 *die E-Mail* · *innerhalb von* · *Verbraucherin* · *parken* · *Krankenhaus* · *Urlaub*
+- ✅ *das E-Mail*, *innert*, *Spital* · 🚫 *die E-Mail*, *innerhalb von*, *Krankenhaus*
 - Check the Helvetism list in the Schreibweisungen when a word feels German rather than Swiss.
 
 **MEC-13 Numbers, dates, times, currency and percentages follow the federal conventions** of the language: §11.1 to §11.4.
@@ -432,9 +426,8 @@ Apply only the section for the language being written. Swiss spelling, abbreviat
 **DEU-07 Weekdays in tables and forms: two letters, no full stop:** *Mo, Di, Mi, Do, Fr, Sa, So*. Three-letter forms are not allowed. Running text writes them out.
 
 **DEU-08 Keep the verb close to its subject, and prefer verbs to nouns.** Where more than about eight words separate an auxiliary from its participle, split the sentence.
-- ✅ *Prüfen Sie den Nachweis, bevor Sie Daten weitergeben.* · 🚫 *Vor der Weitergabe der Daten hat eine Prüfung des Nachweises zu erfolgen.*
 
-**DEU-09 Typical swaps from formal to normal** (WRD-01). A sample; the rule covers every word not on it.
+**DEU-09 Typical swaps from formal to normal.** A sample; the rule covers every word not on it.
 
 | 🚫 | ✅ |
 |---|---|
@@ -478,7 +471,7 @@ Follows the Federal Chancellery's *Instructions sur la présentation des textes 
 
 **FRA-07 Forbidden outright** by the federal French guide: abbreviated doublets in any form (`·`, `⸱`, `-e-`, `(e)`, `/`), typographic gender markers, and neologisms.
 
-**FRA-08 Ecosystem roles follow the glossary** (GEN-04): *émetteur*, *vérificateur*, *titulaire*.
+**FRA-08 Ecosystem roles follow the glossary:** *émetteur*, *vérificateur*, *titulaire*.
 
 | Role | Label | Running text |
 |---|---|---|
@@ -497,7 +490,7 @@ Follows the Federal Chancellery's *Instructions sur la présentation des textes 
 | Vérifiée / Vérifié(e) | Vérifié |
 | Les vérificatrices et vérificateurs contacté(e)s | Les personnes contactées |
 
-- Prefer the last row's route: an epicene noun resolves role and agreement together, and *personnes* being feminine makes *contactées* correct rather than a compromise.
+- Prefer the last row's route: an epicene noun resolves role and agreement together.
 
 **FRA-10 Salutations.** *Bonjour,* · *Bonjour [Name],* · *Bonjour à toutes et à tous* · *Chères utilisatrices, chers utilisateurs,* where the doublet is warranted. 🚫 *Chère Madame, cher Monsieur,* · 🚫 *Chers/chères utilisateurs/trices*
 
@@ -523,7 +516,7 @@ Follows the *Istruzioni per la redazione dei testi ufficiali in italiano* and th
 
 **ITA-05 Forbidden outright** by the federal Italian directive: the asterisk, `@`, the schwa `ə`, and slashes.
 
-**ITA-06 Ecosystem roles follow the glossary** (GEN-04): *emittente*, *verificatore*, *titolare*.
+**ITA-06 Ecosystem roles follow the glossary:** *emittente*, *verificatore*, *titolare*.
 
 | Role | Label | Running text |
 |---|---|---|
@@ -543,11 +536,9 @@ No federal writing rules cover English, so this section is the whole authority. 
 
 **ENG-03 No serial comma** before the final *and* in a list, unless leaving it out creates a real ambiguity.
 
-**ENG-04 Do not contract a noun with *is*, *has*, *does* or *was*.** *The register's open* reads as a possessive on first pass.
+**ENG-04 Do not contract a noun with *is*, *has*, *does* or *was*** (*the register's open*).
 
-**ENG-05 Sentence case** for titles, headings, menu items, labels and buttons. Capitalise proper nouns within them.
-- ✅ *Faster processes and lower costs with digital credentials* · 🚫 *Faster Processes and Lower Costs With Digital Credentials*
-- Do not capitalise a common noun to make it look official: *the register*, not *the Register*, unless the full formal name is used.
+**ENG-05 Sentence case** for titles, headings, menu items, labels and buttons. Do not capitalise a common noun to make it look official: *the register*, not *the Register*, unless the full formal name is used.
 
 **ENG-06 English number conventions are the reverse of the German and French ones.**
 - Numbers one to nine in words, 10 upwards in figures. With units and in tables, always figures: *5 km*, *3%*.
@@ -584,17 +575,17 @@ For swiyu.admin.ch – pages, overlays, card sets, FAQs, tables, link text, meta
 
 **STR-01 Pages stay light and scannable; depth goes into an overlay.** Light means short blocks, not a thin page: a page still covers its subjects in full sections. A block over budget, or a section wanting a third idea, is the signal to move material into an overlay. Never write longer, add a card, or cut substance to fit.
 
-**STR-02 One idea and one argumentative role per block, one subject per section.** Two blocks making the same argument means one is redundant; a block making two needs to split. Decide the subjects first – security and privacy, the ecosystem, getting started – they set the section list. Two unrelated ideas in one section is the commonest structural fault.
+**STR-02 One idea and one argumentative role per block, one subject per section.** Two blocks making the same argument means one is redundant; a block making two needs to split. Decide the subjects first – security and privacy, the ecosystem, getting started – they set the section list.
 
-**STR-03 A heading states a finding, not a topic.** *Sicherheit* names a subject; *Jede Änderung wird bei der Prüfung sichtbar* answers a question. Section labels are the exception (STR-05).
+**STR-03 A heading states a finding, not a topic.** *Sicherheit* names a subject; *Jede Änderung wird bei der Prüfung sichtbar* answers a question. Section labels are the exception.
 
 *Links and buttons:*
 
 **BTN-01 Four words maximum.**
 
-**BTN-02 Where the label can be written, it names its destination.** *Mehr erfahren* alone gives reader and search engine nothing.
+**BTN-02 Where the label can be written, it names its destination.** Never *Mehr erfahren* alone.
 
-**BTN-03 Where the label is fixed, the surrounding text carries the destination.** Most cards cannot take a custom label; that is a constraint to write around, not an error to report. Heading and text make the destination unambiguous; the generic label only confirms it (STR-09).
+**BTN-03 Where the label is fixed, the surrounding text carries the destination.** Most cards cannot take a custom label; that is a constraint to write around, not an error to report. Heading and text make the destination unambiguous; the generic label only confirms it.
 
 **BTN-04 One primary action per card.** Larger blocks are not bound by this; the hero carries a primary and a secondary.
 
@@ -606,7 +597,7 @@ For swiyu.admin.ch – pages, overlays, card sets, FAQs, tables, link text, meta
 
 **STR-06 Reuse the label where the job is the same.** *Loslegen*, *Anwendungsbeispiele*, *Vorteile*, *Hilfe*, *Mitwirken* recur across pages with the same meaning. Take the existing label; keep the heading page-specific.
 
-**STR-07 A content section carries a set of blocks, not one.** Content sections carry two to five, most often three or four; sections with none are openings and calls to action. A heading with a single paragraph has skipped the work of finding what the subject breaks into.
+**STR-07 A content section carries a set of blocks, not one.** Content sections carry two to five, most often three or four; sections with none are openings and calls to action.
 
 *Overlays* – the popup that opens over a page, where a subject gets the depth the page cannot carry. Five parts, in order:
 1. **Header and teaser** – what this is, in two sentences; must not pre-empt part 2.
@@ -619,10 +610,7 @@ For swiyu.admin.ch – pages, overlays, card sets, FAQs, tables, link text, meta
 
 *Card sets* – a card is a heading with a short paragraph, leading somewhere, read out of order, beside unrelated neighbours, often alone on a narrow screen.
 
-**STR-09 A card stands alone and matches its neighbours.**
-- It names its own destination: *Webinar* could be a description, a recording or a registration; *Für ein Webinar anmelden* could not. Nothing outside the card supplies this.
-- It reads independently: sets reflow between one and four columns, so no title depends on its neighbours, its position, or the heading above the set.
-- Cards in a set are parallel in construction, length and level of abstraction.
+**STR-09 A card stands alone and matches its neighbours.** Title and text name its destination (*Für ein Webinar anmelden*, not *Webinar*); nothing outside the card supplies it. No title depends on neighbours, position or the heading above the set. Cards in a set are parallel in construction, length and level of abstraction.
 
 *Numbered sequences:*
 
@@ -630,105 +618,95 @@ For swiyu.admin.ch – pages, overlays, card sets, FAQs, tables, link text, meta
 
 *FAQs:*
 
-**STR-11 The question is phrased as the reader would ask it,** not as the organisation would title it. ✅ *Wofür möchten Sie swiyu einsetzen?* · ✅ *Reicht swiyu Check?*
+**STR-11 The question is phrased as the reader would ask it,** not as the organisation would title it.
 
 **STR-12 The answer opens with the answer.** Context follows.
 
 **STR-13 FAQ questions and answers carry no length budget.** Their brevity comes from STR-12 and the sentence rules in §10.
 
-*SEO* – standard on-page practice applies and is not restated. Where a ranking tactic conflicts with the brand rules, the brand rules win: no keyword stuffing, no superlatives, the glossary term over the higher-volume synonym (WRD-04).
+*SEO* – standard on-page practice applies and is not restated. Where a ranking tactic conflicts with the brand rules, the brand rules win: no keyword stuffing, no superlatives, the glossary term over the higher-volume synonym.
 
 **SEO-01 One page, one primary term,** decided before writing, in the glossary's exact form. It appears in the h1 and within the first 100 words. A page competing with itself ranks for neither.
 
-**SEO-02 A title tag of 55 to 60 characters and a meta description of 140 to 160.** The title puts the primary term first and differs from the h1; engines rewrite descriptions often and titles rarely. The description is benefit-led, active, contains the primary term and reads as a sentence. Keyword research per language, never by translating a German set.
+**SEO-02 Title tag 55 to 60 characters, meta description 140 to 160.** The title puts the primary term first and differs from the h1; the description is benefit-led, active, contains the primary term and reads as a sentence. Keyword research per language, never by translating a German set.
 
-*Accessibility* – swiyu is bound by eCH-0059 v3.0, which adopts WCAG 2.1 AA. Follow it; this file does not restate it. Link purpose, descriptive headings and page titles are covered by BTN-02, BTN-03, STR-03 and SEO-02; truncation by UXC-10. Where this section and the standards differ, this section decides: its rules are the stricter form.
+*Accessibility* – swiyu is bound by eCH-0059 v3.0 (WCAG 2.1 AA); follow it. Where this section is stricter, it decides.
 
 ### 12.2 Campaign
 
-For posters, ads, social posts, claims and campaign landing lines. A campaign can address any audience (§3). Website length budgets do not apply (TYP-02). Neutrality (VOI-06) and the sender rules (SND-01) apply as everywhere, with the one exception in CAM-02.
+For posters, ads, social posts, claims and campaign landing lines. A campaign can address any audience (§3). Website length budgets do not apply. Neutrality and the sender rules apply as everywhere, with the one exception in CAM-02.
 
 **CAM-01 Every line hits at least one of three goals:** explain the app (*It's in your hands* · *The app for my digital credentials*), spark enthusiasm (*Paperwork without the paper*), build trust (*100% voluntary* · *decentralised, only on your phone*).
 
 **CAM-02 Campaign communication may give people a voice.** Elsewhere either swiyu speaks or there is no sender; in campaign work, users may speak for themselves. A quoted voice is a real one: no composite or invented testimonials. If a quote cannot be sourced, write the line without a speaker. Where nobody speaks, SND-01 holds.
 
-**CAM-03 Metaphor and wordplay are allowed in campaign lines** where they name an established concept. The one text type where they are expected. Body copy under the line stays literal. Wordplay must survive four languages: test the line in German, French, Italian and English before approval. A pun that works in one language will be replaced in the other three, not translated; decide that consciously.
+**CAM-03 Metaphor and wordplay are allowed in campaign lines** where they name an established concept. Body copy under the line stays literal. Test the line in German, French, Italian and English before approval; a pun that works in one language is replaced in the other three, not translated.
 
-**CAM-04 Claim safety is not relaxed.** OPS-04 applies in full. A short line has less room to qualify a claim, so it needs a narrower claim, not a looser one. Superlatives stay out (VOI-07), including implied ones: *finally* and *at last* imply a verdict the sender cannot make.
-- 🚫 *Your data. Nobody else's.* · ✅ *Your credentials stay on your phone.*
+**CAM-04 Claim safety is not relaxed.** OPS-04 applies in full: a short line needs a narrower claim, not a looser one. Superlatives stay out, including implied ones such as *finally* and *at last*.
 
-**CAM-05 The line works without the image.** A line that only makes sense beside its visual fails in audio, in text-only contexts and in assistive technology.
+**CAM-05 The line works without the image,** in audio, in text-only contexts and in assistive technology.
 
 ### 12.3 UX copy
 
-For buttons, labels, form fields, error messages, empty states, tooltips and notifications. Read with the audience rules in §3; website length budgets do not apply. GEN-01 step 1 does most of the work here: name the action, not the actor. Link labels follow BTN-02; abbreviations follow MEC-06.
+For buttons, labels, form fields, error messages, empty states, tooltips and notifications. Read with the audience rules in §3; website length budgets do not apply. GEN-01 step 1 does most of the work here: name the action, not the actor. Link labels follow BTN-02.
 
 **UXC-01 Buttons: verb first, four words maximum, naming what happens next** – not what the reader is agreeing to in the abstract. *Jetzt loslegen*, *Nachweis prüfen*, *Registrieren*. A pair of buttons uses parallel verbs: *Senden* and *Abbrechen* are not parallel; *Senden* and *Nicht senden* are.
-- ✅ *Nachweis senden* · 🚫 *Weiter* · ✅ *Anfrage ablehnen* · 🚫 *Abbrechen*, where the action is a refusal rather than an exit
+- ✅ *Nachweis senden* · 🚫 *Weiter*
 
 **UXC-02 Mark optional fields, not required ones,** where most fields are required. The shorter set of markers wins.
 
-**UXC-03 Error messages: three parts, in this order: what happened, why, what to do next.** Drop the middle part when the cause adds nothing the reader can act on. Name the recovery path even when it is thin: *Versuchen Sie es später erneut* is more than *Fehler 500*. Where the reader cannot act, say who can.
-- ✅ *Der Nachweis ist abgelaufen. Fordern Sie einen neuen an.* · 🚫 *Ein Fehler ist aufgetreten.*
+**UXC-03 Error messages: what happened, why, what to do next,** in that order. Drop the why when it adds nothing actionable. Always name a recovery path, or who can act.
 
-**UXC-04 Never blame the reader.** Passive is allowed here (SND-03): it keeps the fault off the reader.
-- ✅ *Der Code konnte nicht gelesen werden.* · 🚫 *Sie haben einen ungültigen Code eingegeben.*
+**UXC-04 Never blame the reader.** Passive is allowed here (SND-03). ✅ *Der Code konnte nicht gelesen werden.* · 🚫 *Sie haben einen ungültigen Code eingegeben.*
 
-**UXC-05 An empty state says what belongs here and how to get it,** in two sentences at most. ✅ *Hier erscheinen Ihre Nachweise. Fügen Sie den ersten hinzu, sobald Sie ihn erhalten haben.*
+**UXC-05 An empty state says what belongs here and how to get it,** in two sentences at most.
 
-**UXC-06 Confirmations state the outcome, not the process.** ✅ *Nachweis gesendet* · 🚫 *Ihre Anfrage wurde erfolgreich verarbeitet*
+**UXC-06 Confirmations state the outcome, not the process.**
 
-**UXC-07 A notification says what changed and whether the reader has to act.** If no action is needed, say so; silence reads as an obligation.
+**UXC-07 A notification says what changed and whether the reader has to act.** If no action is needed, say so.
 
-**UXC-08 A tooltip explains in one sentence; it never instructs.** Anything the reader must do goes in visible copy. If it needs two sentences, the interface needs a change, not a longer tooltip.
+**UXC-08 A tooltip explains in one sentence and never instructs;** anything the reader must do goes in visible copy.
 
-**UXC-09 No apologies, no congratulations, no *Oops*.** Fix the problem or state the outcome; do not perform regret or delight. No *Geschafft*, no *Super*.
+**UXC-09 No apologies, no congratulations, no *Oops*.** Fix the problem or state the outcome. No *Geschafft*, no *Super*.
 
 **UXC-10 Avoid truncation.** Shorten the text instead. Where unavoidable – user-generated content, a name of unknown length – use an ellipsis and expose the full text in a tooltip.
 
-**UXC-11 Check the longest language before the layout is fixed** (WRD-09). A label that fits in English may not fit anywhere else.
+**UXC-11 Check the longest language before the layout is fixed.** A label that fits in English may not fit anywhere else.
 
 ### 12.4 Developer documentation
 
 For integration guides, API references, tutorials, code comments and release notes. The audience is `[DEV]`. The one text type where WRD-01 and WRD-02 are relaxed: full technical vocabulary, each term introduced once, then assumed. Everything else still applies, including SND-01, the gender rules, the glossary and claim checking.
 
-**DOC-01 No marketing.** No benefit framing, no positioning lines, no *powerful* or *seamless*. The reader has already chosen swiyu.
+**DOC-01 No marketing.** No benefit framing, no positioning lines, no *powerful* or *seamless*.
 
-**DOC-02 Each step ends with its expected result and carries its own failure modes.** State the expected result after each step that produces something visible. Put the failure modes with the step that fails, not in a troubleshooting section at the end.
+**DOC-02 Each step ends with its expected result and carries its own failure modes,** placed with the step, not in a troubleshooting section at the end.
 
-**DOC-03 Code samples run as written.** No pseudo-values that look real, no truncated payloads presented as complete, no placeholders the reader might paste unchanged. Mark placeholders unmistakably: `<your-client-id>`, not `abc123`.
+**DOC-03 Code samples run as written.** Placeholders are unmistakable: `<your-client-id>`, not `abc123`.
 
-**DOC-04 Prose around the code is translated; the code is not.** Identifiers, parameter names, error codes and field names are what they are in the API, in every language version. Comments inside samples stay in English.
+**DOC-04 Prose around the code is translated; the code is not.** Identifiers, parameter names, error codes and comments inside samples stay as in the API, in English.
 
 **DOC-05 Where the standard's term and the swiyu term differ, give both once,** then use the swiyu one.
 
-**DOC-06 Compound nouns are acceptable** where they are the established form in the field. WRD-03 protects general readers; it does not force *Eintrag im Vertrauensregister* into a schema description.
+**DOC-06 Compound nouns are acceptable** where they are the established form in the field; WRD-03 does not apply.
 
-**DOC-07 OPS-04 applies, with a narrower source order:** for anything about a standard, the specification from the standards body settles it. Do not describe behaviour from memory of similar systems.
-- Name the version or the date for anything that can change: endpoints, schemas, supported algorithms.
-- Do not document intended behaviour as current behaviour. Where something is planned, say so and say when it will be confirmed, or leave it out.
-- Name the limits (VOI-05): what the API does not support, which algorithms are not accepted, which flows are out of scope.
+**DOC-07 OPS-04 applies, with a narrower source order:** for anything about a standard, the specification from the standards body settles it; never describe behaviour from memory of similar systems. Date or version anything that can change. Never document planned behaviour as current. Name what the API does not support.
 
 ### 12.5 Editorial
 
 For news items, newsletters, blog posts and presentations. Read with the audience rules in §3; editorial texts can address any audience. Blog posts need nothing beyond the general rules: VOI-01, VOI-05, MEC-01.
 
-**EDT-01 The first sentence carries the news, and the headline states the finding.** What happened, who it affects. Background follows, never precedes. Do not announce intentions as events: a decision to plan something is not a milestone (OPS-04).
+**EDT-01 The first sentence carries the news, and the headline states the finding.** What happened, who it affects. Background follows, never precedes. Do not announce intentions as events: a decision to plan something is not a milestone.
 - ✅ *Ab sofort können Organisationen ihre digitale Kennung im Basisregister eintragen.* · 🚫 *Im Rahmen der laufenden Weiterentwicklung der Vertrauensinfrastruktur wurde ein weiterer Schritt erreicht.*
-- ✅ *Basisregister ist offen für Eintragungen* · 🚫 *Neues zum Basisregister*
 
 **EDT-02 Say what the reader should do,** or say explicitly that nothing is required. Ambiguity here generates support requests.
 
-**EDT-03 Quote real people, named, with their function.** No composite quotes, no invented enthusiasm. A quote that restates the paragraph above it is cut, not shortened. SND-01 applies to the sender, not to the speaker: a quoted person may say *we*; the text around them may not.
+**EDT-03 Quote real people, named, with their function.** No composite quotes. A quote that restates the paragraph above it is cut. SND-01 applies to the sender, not the speaker: a quoted person may say *we*.
 
-**EDT-04 The subject line is the most important sentence.** One thing that happened, under 50 characters, not a teaser. ✅ *Basisregister offen für Eintragungen* · 🚫 *Das hat sich bei swiyu getan*
+**EDT-04 The subject line is the most important sentence.** One thing that happened, under 50 characters, not a teaser.
 
-**EDT-05 One lead item, then at most three secondary items.** A newsletter with six equal items has no lead. No greeting that pretends to a relationship: *Guten Tag* is enough (ADR-01); French salutations follow FRA-10.
+**EDT-05 One lead item, then at most three secondary items.** No greeting that pretends to a relationship: *Guten Tag* is enough; French salutations follow FRA-10.
 
-**EDT-06 One idea per slide,** stated in the slide title as a full statement, not a label. ✅ *Digitale Nachweise senken den Prüfaufwand* · 🚫 *Vorteile*
-- Nothing on the slide depends on the speaker: decks circulate without their presenter.
-- Every figure on a slide has a source in the notes (OPS-04).
-- The closing slide states what happens next, not *Vielen Dank*.
+**EDT-06 One idea per slide,** stated in the slide title as a full statement, not a label. Nothing on the slide depends on the speaker. Every figure has a source in the notes. The closing slide states what happens next, not *Vielen Dank*.
 
 ---
 
