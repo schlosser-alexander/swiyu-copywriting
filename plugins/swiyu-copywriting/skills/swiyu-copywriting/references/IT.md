@@ -33,7 +33,7 @@ Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
 
 **ITA-05 Forbidden outright** by the federal Italian directive: the asterisk, `@`, the schwa `ə`, and slashes.
 
-**ITA-06 Ecosystem roles follow the glossary** (GEN-04): *emittente*, *verificatore*, *titolare*.
+**ITA-06 Ecosystem roles take the glossary term** (GEN-04, WRD-06). The table shows how each term is used in a label and in running text, not which term it is. Where the fetched glossary gives a different term, the glossary wins and the difference is flagged.
 
 | Role | Label | Running text |
 |---|---|---|
