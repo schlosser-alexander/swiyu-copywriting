@@ -18,7 +18,7 @@ Rules for writing and reviewing swiyu texts.
 
 **Order of authority.** A lower rank never overrides a higher one.
 
-1. **The glossary** – `references/glossary.md`, a dated extract; it defines the terms. Style never overrides a defined term.
+1. **The glossary** – the public swiyu glossary, fetched from its repository as WRD-06 says; it defines the terms. Style never overrides a defined term.
 2. **This file**, including the reference files it points to.
 3. **Federal writing rules** for German, French and Italian.
 4. **Industry practice** – for anything the ranks above leave open.
@@ -68,12 +68,13 @@ Two more rows apply to a revision only. Ask them when the request does not say:
 
 - **A claim is** any statement about what swiyu does, how it works, who operates what, what the law requires, when something happens, or any figure. Capability statements always count. Benefit framing and reader address do not.
 - **Sources, in order:**
-  1. the glossary (`references/glossary.md`) – for what a term means
+  1. the glossary, fetched as WRD-06 says – for what a term means
   2. eid.admin.ch – found with a site-restricted search (`site:eid.admin.ch <term>`), then opened from the search result
   3. the technical documentation – found with `site:swiyu-admin-ch.github.io <term>`, then opened from the search result
   4. official federal publications – for what the law requires
   5. for anything not swiyu-specific: the documentation of the body that defines it, never a summary of it
 - **Never type a web address yourself.** A page can only be opened from an address that came back from a search or that the user pasted. An address written from memory fails. Search the site for the term, open the result. If no result covers the claim, or the page cannot be opened, the claim is unverified – no second attempt on a guessed address.
+- **One exception: the glossary files.** Their exact addresses are written in WRD-06. Open them from there, without a search, and never alter them.
 - **Where no web search is available,** the check cannot run. Say so once under *Critical notes*, mark every claim the check would have covered as unverified, and deliver the copy.
 - **A fact check as a task** uses exactly two sources: eid.admin.ch and the technical documentation, each reached by site-restricted search. Report, per claim, which one settled it. A claim neither settles is unverified; never resolve it from the wider list or from memory. Without web search, a fact check cannot run at all: the verdict says so, and every claim is listed as unverified.
 - **Approved means** live on eid.admin.ch, or explicitly marked final. Drafts, design files and earlier output of this skill do not count. Ask when the status is unclear.
@@ -281,6 +282,7 @@ Short labels use steps 1 to 3 and 6. Running text can reach 4 and 5.
 | Verifier | label: Prüfende<br>running text: prüfende Organisation | label: Verifier<br>running text: verifying organisation |
 | Holder / user | label: Nutzende<br>running text: Nutzende | label: Holder<br>running text: user |
 
+- Where the glossary gives a different term, the glossary wins and the difference is flagged. *Nutzende* for the holder is a deliberate exception: the glossary's *Inhaber* is masculine.
 - French and Italian forms are in their language files.
 - `[DE]` These roles stop the ladder at step 3, so the column shows participles rather than the generic feminine the e-ID law uses. Both are correct; the ladder decides.
 
@@ -343,7 +345,7 @@ Short labels use steps 1 to 3 and 6. Running text can reach 4 and 5.
 | | Branded name | Generic term |
 |---|---|---|
 | Means | the swiyu component itself | the technical concept, which exists outside swiyu too |
-| Form | *swiyu Wallet*, *swiyu Trust Infrastructure*, *swiyu Base Registry* – as the glossary gives it, in every language; the prefix is part of the name | *wallet*, *trust infrastructure*, *base registry* – lowercase, translated: *Vertrauensinfrastruktur*, *infrastructure de confiance*, *infrastruttura di fiducia* |
+| Form | the capitalised glossary entry, in every language, for example *swiyu Wallet*; the prefix is part of the name | the lowercase glossary entry, translated as the glossary gives it |
 | Use when | the sentence is about the swiyu component specifically | the sentence would be equally true of any provider's component, or the reader already knows which one is meant (NAM-07) |
 
 - ✅ *Every wallet stores credentials locally; swiyu Wallet also binds them to the device.* · 🚫 *swiyu Wallet apps are becoming common across Europe.*
@@ -403,8 +405,17 @@ Settled facts that drafts get wrong often enough to fix here instead of re-check
 - Never invent a term without flagging it.
 
 **WRD-06 The glossary decides which term corresponds to which.**
-- `references/glossary.md` states its export date; a term it lacks is reported as missing and resolved by WRD-05, never guessed.
+- **One source.** The glossary lives only in the public repository github.com/swiyu-admin-ch/swiyu_glossary. This skill carries no copy of it, and no term is taken from memory or from earlier output.
+- **One file per language,** each English source to that language. Fetch the file with web fetch, or with code execution where web fetch is not available:
+  - German: `https://raw.githubusercontent.com/swiyu-admin-ch/swiyu_glossary/main/tbx/de.tbx`
+  - French: `https://raw.githubusercontent.com/swiyu-admin-ch/swiyu_glossary/main/tbx/fr.tbx`
+  - Italian: `https://raw.githubusercontent.com/swiyu-admin-ch/swiyu_glossary/main/tbx/it.tbx`
+- **Fetch only the language you need.** Each file is long. Fetch the file of the language the copy is in; for English copy, the English source terms are in every file, so fetch the German one. Never fetch a second language to compare. Fetch once per conversation and reuse what came back.
+- **Reading a file.** Each `<termEntry>` is one concept: the `xml:lang="en"` term is the source, the other term its equivalent. Only the German file adds more: `<descrip>` holds an English description of the concept, `<note from="translator">` the grammatical gender. Use a description only when the meaning of an entry is in doubt; it is context for the writer, never copy. Where that doubt arises in French or Italian work, the German file is the one extra fetch allowed.
+- **No avoid list.** The glossary flags no term as forbidden or discouraged. WRD-01, WRD-07 and WRD-08 remain the authority on discouraged terms.
 - Match case exactly: capitalised product names and lowercase generic concepts are separate entries.
+- A term the file lacks is reported as missing and resolved by WRD-05, never guessed.
+- **When the fetch fails** – no web fetch and no code execution, the network refuses, or the file cannot be read: say once under *Critical notes* that the swiyu glossary could not be reached. Keep the term the source or the user gave, mark every term the glossary would have settled as unverified, and deliver the copy. No second attempt on another address, and no term filled in from memory.
 - Where the glossary and §9 disagree, the glossary decides which term, §9 decides how it is used. Flag the disagreement to the user.
 
 **WRD-07 Checking and verification are two different acts, in every language.**
@@ -495,7 +506,7 @@ A failed check is a rewrite, not a caveat.
 1. Was every frame item filled or asked before drafting (OPS-01)?
 2. Was every claim checked in the OPS-04 order or flagged as unverified? (New text and style-and-content reviews.)
 3. In a revision: does the copy contain a claim the source did not, and is it marked as added and sourced (OPS-11)?
-4. Copy and reply alike: no sender pronoun; every term as the glossary defines it; the ladder worked from the top for every noun that names people – *Entscheidungsträger:innen* in a rationale line fails this check as surely as in a headline; no em dash; no `ß`; correct quotation marks? The content of a quote is exempt (OPS-12).
+4. Copy and reply alike: no sender pronoun; every term as the glossary defines it, or marked unverified where the glossary could not be reached; the ladder worked from the top for every noun that names people – *Entscheidungsträger:innen* in a rationale line fails this check as surely as in a headline; no em dash; no `ß`; correct quotation marks? The content of a quote is exempt (OPS-12).
 5. Does the reply contain a rule ID, a scope tag or a file name anywhere? If so, replace it with plain words.
 6. Does the reply follow the OPS-06 shape – opening with the recommendation or the verdict, every part under its own heading – and is everything in the reader's language?
 
@@ -508,10 +519,10 @@ Paths are relative to the skill root, here and inside the reference files. Decid
 | File | Open it only when |
 |---|---|
 | `references/text-type-*.md` | Writing or restructuring a whole component or page. Not needed to fix a sentence. |
-| `references/glossary.md` | A term needs its approved equivalent in DE, FR or IT, or its grammatical gender |
-| `references/glossary-descriptions.md` | The meaning of a glossary entry is in doubt; never for a plain lookup |
 | `references/DE.md` | A German number, date, currency or typography question, or a formal word that needs a plain swap (WRD-01) |
 | `references/FR.md` | **Always, when writing French** (GEN-07) |
 | `references/IT.md` | **Always, when writing Italian** (GEN-07) |
 | `references/EN.md` | An English spelling, contraction or number question |
 | `references/examples.md` | A before-and-after model would settle a question faster than a rule |
+
+The glossary is not a file here. Fetch it, as WRD-06 says, only when a term needs its approved equivalent in German, French or Italian, its grammatical gender, or its meaning. Decide that together with the reference files, in the same pass.

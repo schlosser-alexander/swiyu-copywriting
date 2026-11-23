@@ -1,6 +1,8 @@
 # swiyu copywriting
 
-Brand voice, writing rules and terminology for swiyu, packaged as a Claude plugin. The plugin holds one skill in the Agent Skills format: `SKILL.md` holds the core rules, and the files in `references/` are loaded on demand (per language, per text type, glossary and examples).
+Brand voice, writing rules and terminology for swiyu, packaged as a Claude plugin. The plugin holds one skill in the Agent Skills format: `SKILL.md` holds the core rules, and the files in `references/` are loaded on demand (per language, per text type, and examples).
+
+The terminology comes from the public [swiyu glossary](https://github.com/swiyu-admin-ch/swiyu_glossary), which the skill fetches at the time of writing, one language at a time. The skill carries no copy of it. Fetching needs web fetch or code execution with network access; without either, the skill says so and marks the affected terms as unverified.
 
 ## Install
 

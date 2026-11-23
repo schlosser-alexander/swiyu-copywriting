@@ -41,6 +41,7 @@ Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
 | Verifier | *Verificato da* | *il verificatore* |
 | Holder / user | *Titolare*; otherwise name the action (step 1) | *chi è titolare di …*; *la persona titolare*; *Lei* where the reader is meant |
 
+- Where the glossary gives a different term, the glossary wins and the difference is flagged.
 - *Emittente* and *titolare* are epicene and resolve at step 2.
 - *Verificatore* names an organisation, not a person, so the ladder does not apply to it. It is masculine because the noun is; do not "balance" it with *verificatrice*.
 - *Utente* is epicene and serves for users in general: *chi utilizza …*, *l'utente*.
