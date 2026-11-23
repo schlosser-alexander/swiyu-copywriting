@@ -1,8 +1,7 @@
 {
   "name": "swiyu",
   "owner": {
-    "name": "schlosser-alexander",
-    "url": "https://github.com/schlosser-alexander"
+    "name": "swiyu"
   },
   "metadata": {
     "description": "Writing tools for swiyu, the Swiss federal trust infrastructure for digital credentials."
