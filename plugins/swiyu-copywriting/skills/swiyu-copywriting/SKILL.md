@@ -274,13 +274,17 @@ Short labels use steps 1 to 3 and 6. Running text can reach 4 and 5.
 - Never a paired role with a paired adjective.
 - ✅ *les personnes contactées* · 🚫 *Les vérificatrices et vérificateurs contacté(e)s*
 
-**GEN-04 Ecosystem roles: the glossary gives the term, the ladder gives the form.** Decided once, never re-derived.
-- The term for issuer, verifier and holder comes from the glossary (WRD-06), in the target language. This file does not restate it.
-- Where the glossary term names an organisation, running text uses it as it stands.
-- Where it names a person, the ladder applies to it, from step 1.
-- Labels are short, so they stop early on the ladder. `[DE]` Participles at step 3: *Ausstellende*, *Prüfende*, *Nutzende*, rather than the generic feminine the e-ID law uses. Both are correct; the ladder decides. `[EN]` The glossary's source terms, capitalised: *Issuer*, *Verifier*, *Holder*.
-- `[EN]` Running text: *issuing organisation*, *verifying organisation*, and *user* for the holder.
+**GEN-04 Ecosystem roles are fixed** – decided once, never re-derived.
+
+| Role | `[DE]` | `[EN]` |
+|---|---|---|
+| Issuer | label: Ausstellende<br>running text: ausstellende Organisation | label: Issuer<br>running text: issuing organisation |
+| Verifier | label: Prüfende<br>running text: prüfende Organisation | label: Verifier<br>running text: verifying organisation |
+| Holder / user | label: Nutzende<br>running text: Nutzende | label: Holder<br>running text: user |
+
+- Where the glossary gives a different term, the glossary wins and the difference is flagged. *Nutzende* for the holder is a deliberate exception: the glossary's *Inhaber* is masculine.
 - French and Italian forms are in their language files.
+- `[DE]` These roles stop the ladder at step 3, so the column shows participles rather than the generic feminine the e-ID law uses. Both are correct; the ladder decides.
 
 **GEN-05 `[EN]` Gender-neutral by default** – *businessperson*, *chair*, *workforce*.
 - Singular *they* where gender is unknown or irrelevant, never *he/she*.

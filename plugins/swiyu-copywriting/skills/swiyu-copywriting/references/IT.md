@@ -33,7 +33,7 @@ Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
 
 **ITA-05 Forbidden outright** by the federal Italian directive: the asterisk, `@`, the schwa `ə`, and slashes.
 
-**ITA-06 Ecosystem roles take the glossary term** (GEN-04, WRD-06). The table shows how each term is used in a label and in running text, not which term it is. Where the fetched glossary gives a different term, the glossary wins and the difference is flagged.
+**ITA-06 Ecosystem roles follow the glossary** (GEN-04): *emittente*, *verificatore*, *titolare*.
 
 | Role | Label | Running text |
 |---|---|---|
@@ -41,6 +41,7 @@ Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
 | Verifier | *Verificato da* | *il verificatore* |
 | Holder / user | *Titolare*; otherwise name the action (step 1) | *chi è titolare di …*; *la persona titolare*; *Lei* where the reader is meant |
 
+- Where the glossary gives a different term, the glossary wins and the difference is flagged.
 - *Emittente* and *titolare* are epicene and resolve at step 2.
 - *Verificatore* names an organisation, not a person, so the ladder does not apply to it. It is masculine because the noun is; do not "balance" it with *verificatrice*.
 - *Utente* is epicene and serves for users in general: *chi utilizza …*, *l'utente*.

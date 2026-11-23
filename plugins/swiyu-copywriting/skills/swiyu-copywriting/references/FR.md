@@ -49,7 +49,7 @@ Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
 
 **FRA-07 Forbidden outright** by the federal French guide: abbreviated doublets in any form (`·`, `⸱`, `-e-`, `(e)`, `/`), typographic gender markers, and neologisms.
 
-**FRA-08 Ecosystem roles take the glossary term** (GEN-04, WRD-06). The table shows how each term is used in a label and in running text, not which term it is. Where the fetched glossary gives a different term, the glossary wins and the difference is flagged.
+**FRA-08 Ecosystem roles follow the glossary** (GEN-04): *émetteur*, *vérificateur*, *titulaire*.
 
 | Role | Label | Running text |
 |---|---|---|
@@ -57,6 +57,7 @@ Short labels use steps 1, 2 and 6. Running text can reach 4 and 5.
 | Verifier | *Vérifié par* | *le vérificateur* |
 | Holder / user | *Titulaire*; otherwise name the action (step 1) | *les titulaires*; singular *la personne titulaire*; *vous* where the reader is meant |
 
+- Where the glossary gives a different term, the glossary wins and the difference is flagged.
 - *Émetteur* and *vérificateur* name an organisation, not a person, so the ladder does not apply to them. They are masculine because the nouns are; do not "balance" them with a feminine variant.
 - *Titulaire* is epicene and resolves at step 2.
 
