@@ -1,0 +1,18 @@
+{
+  "name": "swiyu-copywriting",
+  "version": "1.0.0",
+  "description": "Brand voice, writing rules and terminology for swiyu, the Swiss federal trust infrastructure for digital credentials.",
+  "author": {
+    "name": "schlosser-alexander",
+    "url": "https://github.com/schlosser-alexander"
+  },
+  "homepage": "https://github.com/schlosser-alexander/swiyu-copywriting",
+  "repository": "https://github.com/schlosser-alexander/swiyu-copywriting",
+  "keywords": [
+    "swiyu",
+    "e-ID",
+    "copywriting",
+    "brand voice",
+    "terminology"
+  ]
+}

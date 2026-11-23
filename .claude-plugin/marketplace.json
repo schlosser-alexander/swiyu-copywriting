@@ -1,0 +1,17 @@
+{
+  "name": "swiyu",
+  "owner": {
+    "name": "schlosser-alexander",
+    "url": "https://github.com/schlosser-alexander"
+  },
+  "metadata": {
+    "description": "Writing tools for swiyu, the Swiss federal trust infrastructure for digital credentials."
+  },
+  "plugins": [
+    {
+      "name": "swiyu-copywriting",
+      "source": "./plugins/swiyu-copywriting",
+      "description": "Brand voice, writing rules and terminology for swiyu, the Swiss federal trust infrastructure for digital credentials."
+    }
+  ]
+}
